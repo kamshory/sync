@@ -8,6 +8,7 @@ require_once(dirname(__FILE__) . "/lib.inc/header.php");
 ?>
 <script src="lib.assets/dashboard/pagination.js"></script>
 <script>
+  let ajaxURL = 'lib.ajax/database.php';
   $(document).ready(function(){
       let parsed = parseQuery(document.location.search);
       let page = 1;
@@ -19,24 +20,18 @@ require_once(dirname(__FILE__) . "/lib.inc/header.php");
       {
         page = 1;
       }
-    	$.ajax({
-        type:'GET',
-        url:'lib.ajax/database.php',
-        data:{page:page},
-        success:function(result){
-          buildPage(result);
-        }
+    	loadAjax(ajaxURL, page);
+      $(document).on('click', 'nav a.page-link', function(e){
+        e.preventDefault();
+        let lnk = $(this);
+        let page = lnk.parent().attr('data-page');
+        let href = lnk.attr('href');
+        loadAjax(ajaxURL, page);
+        history.pushState({ foo: 'bar' }, '', href);
       });
   });
 
-  function buildPage(result)
-  {
-    let paginationStr = createPagination(result);
-    $('nav ul.pagination').each(function(){
-      $(this).empty().append(paginationStr);
-    });
-    createData('table.table-data', result);
-  }
+  
 
   
 </script>
@@ -49,32 +44,8 @@ require_once(dirname(__FILE__) . "/lib.inc/header.php");
 <div class="table-container table-container-overflow">
 <table class="table table-data">
   <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
   </tbody>
 </table>
 </div>

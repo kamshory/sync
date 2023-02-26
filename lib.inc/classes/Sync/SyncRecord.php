@@ -6,7 +6,7 @@ class SyncRecord
 {
     public $database;
 
-    public $resultPerPage = 4;
+    public $resultPerPage = 20;
     public $pageRange = 2;
 
     /**
