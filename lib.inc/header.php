@@ -53,12 +53,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link<?php echo $self == 'apps.php' ? ' active' : '';?>" href="apps.php">
+            <a class="nav-link<?php echo $self == 'sync-application.php' ? ' active' : '';?>" href="sync-application.php">
               Aplikasi
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link<?php echo $self == 'users.php' ? ' active' : '';?>" href="users.php">
+            <a class="nav-link<?php echo $self == 'sync-user.php' ? ' active' : '';?>" href="sync-user.php">
               Pengguna
             </a>
           </li>

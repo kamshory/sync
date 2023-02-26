@@ -3,12 +3,12 @@ require_once(dirname(__FILE__) . "/lib.inc/functions.php");
 require_once(dirname(__FILE__) . "/lib.inc/sync.php");
 //require_once(dirname(__FILE__) . "/lib.inc/sign-in.php");
 
-$pageTitle = "Sinkronisasi File";
+$pageTitle = "Pengguna Sync Hub";
 require_once(dirname(__FILE__) . "/lib.inc/header.php");
 ?>
 <script src="lib.assets/dashboard/pagination.js"></script>
 <script>
-  let ajaxURL = 'lib.ajax/file.php';
+  let ajaxURL = 'lib.ajax/user.php';
  $(document).ready(function(){
       let parsed = parseQuery(document.location.search);
       let page = 1;
