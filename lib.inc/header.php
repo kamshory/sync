@@ -53,11 +53,6 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link<?php echo $self == 'sync-application.php' ? ' active' : '';?>" href="sync-application.php">
-              Aplikasi
-            </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link<?php echo $self == 'sync-user.php' ? ' active' : '';?>" href="sync-user.php">
               Pengguna
             </a>

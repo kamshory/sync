@@ -51,4 +51,3 @@ class SyncUser extends \Sync\SyncRecord
         return new \Sync\SyncResult($totalResult, $this->resultPerPage, $page, $this->pageRange, $data, $this->getMap());
     }
 }
-
