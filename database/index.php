@@ -3,17 +3,19 @@ require_once(dirname(dirname(__FILE__)) . "/lib.inc/functions.php");
 
 
 if (@$_GET['action'] == 'list-record') {
-    $application = trim(@$_GET['application']);
-    $last_sync = trim(@$_GET['last_sync']);
+    $application_id = addslashes(trim(@$_GET['application_id']));
+    $last_sync = addslashes(trim(@$_GET['last_sync']));
     $last_sync = addslashes($last_sync);
+    $filter = "";
     if(!empty($last_sync))
     {
-        $filter = " AND `time_create` > '$$last_sync' ";
+        $filter = " AND `time_create` > '$last_sync' ";
     }
-    else
+    if(!empty($application_id))
     {
-        $filter = "";
+        $filter = " AND `application_id` = '$application_id' ";
     }
+
     $rows = $database->executeQuery("SELECT * from `edu_sync_database` WHERE 1 $filter ORDER BY `time_create` ASC ")->fetchAll(PDO::FETCH_ASSOC);
 
     $result = array(
@@ -27,7 +29,7 @@ if (@$_GET['action'] == 'list-record') {
     exit();
 }
 if (@$_GET['action'] == 'upload-sync-file') {
-    $application = trim(@$_GET['application']);
+    $application_id = addslashes(trim($_POST['application_id']));
     $sync_database_id = addslashes(trim($_POST['sync_database_id']));
     $file_path = addslashes(trim($_POST['file_path']));
     $relative_path = addslashes(trim($_POST['relative_path']));
@@ -37,8 +39,8 @@ if (@$_GET['action'] == 'upload-sync-file') {
     $time_upload = addslashes(trim($_POST['time_upload']));
     
     $sql = "INSERT INTO `edu_sync_database` 
-    (`sync_database_id`, `file_path`, `relative_path`, `file_name`, `file_size`, `time_create`, `time_upload`, `time_download`, `time_sync`, `status`) VALUES
-    ('$sync_database_id', '$file_path', '$relative_path', '$file_name', '$file_size', '$time_create', '$time_upload', NULL, NULL, 0)
+    (`sync_database_id`, `application_id`, `file_path`, `relative_path`, `file_name`, `file_size`, `time_create`, `time_upload`, `time_download`, `time_sync`, `status`) VALUES
+    ('$sync_database_id', '$application_id', '$file_path', '$relative_path', '$file_name', '$file_size', '$time_create', '$time_upload', NULL, NULL, 0)
     ";
     $fileUpload->upload($_POST['relative_path'], $_FILES['file_contents']);
     $database->execute($sql);
@@ -54,7 +56,7 @@ if (@$_GET['action'] == 'upload-sync-file') {
 
 if (@$_GET['action'] == 'upload-user-file') {
 
-    $application = trim(@$_GET['application']);
+    $application_id = addslashes(trim(@$_GET['application_id']));
     $fileUpload->upload($_POST['relative_path'], $_FILES['file_contents']);
     $result = array(
         'response_code' => '00',

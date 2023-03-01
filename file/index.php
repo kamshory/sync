@@ -2,18 +2,21 @@
 require_once(dirname(dirname(__FILE__)) . "/lib.inc/functions.php");
 
 if (@$_GET['action'] == 'list-record') {
-    $application = trim(@$_GET['application']);
+    $application_id = addslashes(trim($_GET['application_id']));
     $last_sync = trim(@$_GET['last_sync']);
     $last_sync = addslashes($last_sync);
+    $filter = "";
     if(!empty($last_sync))
     {
-        $filter = " AND `time_create` > '$$last_sync' ";
+        $filter .= " AND `time_create` > '$last_sync' ";
     }
-    else
+    if(!empty($application_id))
     {
-        $filter = "";
+        $filter .= " AND `application_id` = '$application_id' ";
     }
-    $rows = $database->executeQuery("SELECT * from `edu_sync_file` WHERE 1 $filter ORDER BY `time_create` ASC ")->fetchAll(PDO::FETCH_ASSOC);
+    $rows = $database
+        ->executeQuery("SELECT * from `edu_sync_file` WHERE 1 $filter ORDER BY `time_create` ASC ")
+        ->fetchAll(PDO::FETCH_ASSOC);
 
     $result = array(
         'response_code' => '00',
@@ -26,7 +29,7 @@ if (@$_GET['action'] == 'list-record') {
 }
 if (@$_GET['action'] == 'upload-sync-file') {
 
-    $application = trim(@$_GET['application']);
+    $application_id = addslashes(trim($_POST['application_id']));
     $sync_file_id = addslashes(trim($_POST['sync_file_id']));
     $file_path = addslashes(trim($_POST['file_path']));
     $relative_path = addslashes(trim($_POST['relative_path']));
@@ -52,7 +55,7 @@ if (@$_GET['action'] == 'upload-sync-file') {
 }
 
 if (@$_GET['action'] == 'upload-user-file') {
-    $application = trim(@$_GET['application']);
+    $application_id = addslashes(trim($_POST['application_id']));
     $fileUpload->upload($_POST['relative_path'], $_FILES['file_contents']);
     $result = array(
         'response_code' => '00',
