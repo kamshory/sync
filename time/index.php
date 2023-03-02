@@ -13,7 +13,6 @@ if (!empty(@$_GET['time'])) {
 
     $commands = array();
 
-
     // Set time zone and date time
     $commands[] = "/bin/timedatectl set-timezone " . $timeZone;
     $commands[] = "rm -rf /etc/localtime";
