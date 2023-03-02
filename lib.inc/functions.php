@@ -4,6 +4,7 @@ require_once("autoload.php");
 
 
 
+(new \Sync\PHPConfig(dirname(dirname(__FILE__))."/php.ini"))->loadAndApply();
 
 
 $configs = new stdClass;
@@ -14,7 +15,7 @@ $configs->db_port = 3306;
 $configs->db_user = "root";
 $configs->db_pass = "alto1234";
 $configs->db_name = "mini_sync";
-$configs->db_time_zone = "Asia/Jakarta";
+$configs->db_time_zone = ini_get('date.timezone');
 
 
 $database = new \Sync\PicoDatabase(

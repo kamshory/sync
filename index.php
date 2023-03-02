@@ -9,7 +9,6 @@ require_once(dirname(__FILE__) . "/lib.inc/header.php");
 
       <canvas class="my-4 w-100" id="sync-chart" width="900" height="380"></canvas>
 
-
 <?php
 $dataDatabase = array();
 $dataFile = array();

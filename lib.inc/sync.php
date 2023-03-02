@@ -43,6 +43,11 @@ if(isset($_SERVER['HTTP_AUTHORIZATION']))
         exit();
     }
 
+    if(@$_GET['sync_type'] == 'time')
+    {
+        require_once dirname(dirname(__FILE__)) . "/time/index.php";
+        exit();
+    }
     if(@$_GET['sync_type'] == 'file')
     {
         require_once dirname(dirname(__FILE__)) . "/file/index.php";
