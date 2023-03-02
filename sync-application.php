@@ -8,7 +8,7 @@ require_once(dirname(__FILE__) . "/lib.inc/header.php");
 ?>
 <script src="lib.assets/dashboard/pagination.js"></script>
 <script>
-  let ajaxURL = 'lib.ajax/file.php';
+let ajaxURL = 'lib.ajax/file.php';
  $(document).ready(function(){
       let parsed = parseQuery(document.location.search);
       let page = 1;
@@ -30,7 +30,6 @@ require_once(dirname(__FILE__) . "/lib.inc/header.php");
         history.pushState({ foo: 'bar' }, '', href);
       });
   });
-
   
 </script>
 
@@ -47,7 +46,6 @@ require_once(dirname(__FILE__) . "/lib.inc/header.php");
   </tbody>
 </table>
 </div>
-
 
 <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
