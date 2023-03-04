@@ -11,6 +11,7 @@ if(isset($_SERVER['HTTP_AUTHORIZATION']))
 {
     $eup = trim(substr($_SERVER['HTTP_AUTHORIZATION'], 6));
     $up = base64_decode($eup);
+
     if(stripos($up, ":") !== false)
     {
         list($_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW']) = explode(':' , $up);
@@ -42,7 +43,7 @@ if(isset($_SERVER['HTTP_AUTHORIZATION']))
         echo json_encode($result, JSON_PRETTY_PRINT);
         exit();
     }
-
+    
     if(@$_GET['sync_type'] == 'time')
     {
         require_once dirname(dirname(__FILE__)) . "/time/index.php";

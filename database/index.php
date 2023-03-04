@@ -29,7 +29,7 @@ if (@$_GET['action'] == 'list-record') {
     exit();
 }
 if (@$_GET['action'] == 'upload-sync-file') {
-    $application_id = addslashes(trim($_POST['application_id']));
+    $application_id = addslashes(trim(@$_GET['application_id']));
     $sync_database_id = addslashes(trim($_POST['sync_database_id']));
     $file_path = addslashes(trim($_POST['file_path']));
     $relative_path = addslashes(trim($_POST['relative_path']));
