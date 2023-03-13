@@ -3,12 +3,21 @@ namespace Sync;
 
 class FileUpload
 {
-    private string $applicationDir = "";
-    private string $baseDir = "";
-    private array $filterBaseDir = array(
+    private $applicationDir = "";
+    private $baseDir = "";
+    private $filterBaseDir = array(
         "media.edu",
+        "volume.sync",
         "lib.sync"
     );
+
+    /**
+     * Undocumented function
+     *
+     * @param string $applicationDir
+     * @param string $baseDir
+     * @param array $filterBaseDir
+     */
     public function __construct($applicationDir, $baseDir, $filterBaseDir = null)
     {
         $applicationDir = $this->trimPath($applicationDir);

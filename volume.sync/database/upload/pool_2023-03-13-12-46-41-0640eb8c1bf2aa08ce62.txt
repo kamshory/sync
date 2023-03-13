@@ -1,0 +1,2 @@
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `picture_rand` = '591863' WHERE `student_id` = '063ce6828483ec450b85';

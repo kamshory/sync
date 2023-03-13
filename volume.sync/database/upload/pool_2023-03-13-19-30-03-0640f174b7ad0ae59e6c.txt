@@ -1,0 +1,912 @@
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_test` 
+	(`test_id`, `school_id`, `name`, `class`, `school_program_id`, `subject`, `teacher_id`, `description`, `guidance`, `open`, `has_limits`, `trial_limits`, `threshold`, `assessment_methods`, `number_of_question`, `number_of_option`, `question_per_page`, `random`, `random_option`, `random_distribution`, `duration`, `has_alert`, `alert_time`, `alert_message`, `autosubmit`, `standard_score`, `penalty`, `sort_order`, `score_notification`, `publish_answer`, `time_answer_publication`, `test_availability`, `available_from`, `available_to`, `time_create`, `time_edit`, `member_create`, `role_create`, `member_edit`, `role_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+	('0640f174220eea62d296', '063ce682801be89951aa', 'Ujian Nasional Matematika Paket 02', '', '', '', '', '', 'Pilihlah jawaban yang paling tepat!', '0', '1', '1', '75', 'H', '10', '5', '10', '1', '0', '0', '3600', '1', '300', 'Lihat waktu sisa Anda. Silakan periksa kembali jawaban Anda. Segera kirimkan jawaban sebelum waktunya habis.', '0', '1', '0', '0', '0', '0', null, 'F', null, null, '2023-03-13 19:29:54', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', 'A', 'aaaaaaaaaaaaa', 'A', '127.0.0.1', '127.0.0.1', '0');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174223150bd8bac', '<p>Hasil dari 4<sup>-2</sup> + 2<sup>-4</sup> adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '1', '1', 'upper-alpha', '7da56742840525a3a8923378e7ebfc3b', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174223860a21f9a', '0640f174223150bd8bac', '063ce682801be89951aa', '0640f174220eea62d296', '<p>-1/16</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174223f59697c7b', '0640f174223150bd8bac', '063ce682801be89951aa', '0640f174220eea62d296', '<p>-1/8</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742244e03d7bf5', '0640f174223150bd8bac', '063ce682801be89951aa', '0640f174220eea62d296', '<p>1/6</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422499b0de4bc', '0640f174223150bd8bac', '063ce682801be89951aa', '0640f174220eea62d296', '<p>1/8</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17422500763ffa5', '<p>Hasil dari 3&radic;6 x &radic;2 adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', 'f41950d6cbcdb6ad3e7f599e83ef2153', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422555c7893fd', '0640f17422500763ffa5', '063ce682801be89951aa', '0640f174220eea62d296', '<p>6&radic;2</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174225a4845f38d', '0640f17422500763ffa5', '063ce682801be89951aa', '0640f174220eea62d296', '<p>6&radic;3</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174225f2fd98074', '0640f17422500763ffa5', '063ce682801be89951aa', '0640f174220eea62d296', '<p>6&radic;6</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742264899f6739', '0640f17422500763ffa5', '063ce682801be89951aa', '0640f174220eea62d296', '<p>18&radic;2</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17422692f2148f7', '<p>Hasil dari 3 + 2 : 1 adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '53e63d96a0bd1e07a55f954bc5c8f0e7', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174226e9ba237d0', '0640f17422692f2148f7', '063ce682801be89951aa', '0640f174220eea62d296', '<p>3/12</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422736275bc41', '0640f17422692f2148f7', '063ce682801be89951aa', '0640f174220eea62d296', '<p>11/2</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742277f85a9b58', '0640f17422692f2148f7', '063ce682801be89951aa', '0640f174220eea62d296', '<p>7/5</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174227c1d8e9b73', '0640f17422692f2148f7', '063ce682801be89951aa', '0640f174220eea62d296', '<p>12/5</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174228186b2aaf0', '<p>Perbandingan uang Ali dan Lia 4 : 3. Jumlah uang mereka Rp 560.000,00.<br>
+Selisih uang Ali dan Lia adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '8f71def391a1eb25ab33b67b3c3ff64b', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422865b933236', '0640f174228186b2aaf0', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 140.000,00</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174228b7e24b92e', '0640f174228186b2aaf0', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 120.000,00</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174229057a2485f', '0640f174228186b2aaf0', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 100.000,00</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742294d0d484f7', '0640f174228186b2aaf0', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 80.000,00</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174229961399408', '<p>Setelah 9 bulan uang tabungan Susi dikoperasi berjumlah Rp 3.815.000,00.<br>
+Koperasi memberi jasa simpanan berupa bunga 12% pertahun. Tabungan awal Susi adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '6dba743b37920e476a18e0480e6423a1', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174229e6de8e29c', '0640f174229961399408', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 3.500.000,00</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422a331c8e5b9', '0640f174229961399408', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 3.550.000,00</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422a901ec96e3', '0640f174229961399408', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 3.600.000,00</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422ad53f6caf9', '0640f174229961399408', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 3.650.000,00</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17422b267a9df53', '<p>Suatu barisan aritmatika suku ke-2 adalah 19 dan suku ke-5 adalah 31.<br>
+Jumlah 24 suku pertama adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', 'f7a66e2e4e144e1a8b1ff92a963b25ce', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422b829090346', '0640f17422b267a9df53', '063ce682801be89951aa', '0640f174220eea62d296', '<p>1.284</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422bd53e08dc7', '0640f17422b267a9df53', '063ce682801be89951aa', '0640f174220eea62d296', '<p>1.464</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422c2470cc230', '0640f17422b267a9df53', '063ce682801be89951aa', '0640f174220eea62d296', '<p>2.568</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422c68b3c47d5', '0640f17422b267a9df53', '063ce682801be89951aa', '0640f174220eea62d296', '<p>2.928</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17422cc021d2937', '<p>Suku ke-48 dari barisan 3, 10, 17, 24, 31, ... adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '81c78792a1549398fffecd587bd50e4d', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422d177faea94', '0640f17422cc021d2937', '063ce682801be89951aa', '0640f174220eea62d296', '<p>147</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422d6fa03321f', '0640f17422cc021d2937', '063ce682801be89951aa', '0640f174220eea62d296', '<p>151</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422dae32c7346', '0640f17422cc021d2937', '063ce682801be89951aa', '0640f174220eea62d296', '<p>332</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422de413ad7c8', '0640f17422cc021d2937', '063ce682801be89951aa', '0640f174220eea62d296', '<p>336</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17422e16258f27b', '<p>Rumus suku ke-n dari barisan 27, 9, 3, 1,... adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', 'c555c713c321b45e67ac56fd7091d4a9', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422e59797ab46', '0640f17422e16258f27b', '063ce682801be89951aa', '0640f174220eea62d296', '<p>33-n</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422e906790563', '0640f17422e16258f27b', '063ce682801be89951aa', '0640f174220eea62d296', '<p>34-n</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422ec71fc0010', '0640f17422e16258f27b', '063ce682801be89951aa', '0640f174220eea62d296', '<p>3n-3</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422efd503e6f7', '0640f17422e16258f27b', '063ce682801be89951aa', '0640f174220eea62d296', '<p>3n-4</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17422f30421a005', '<p>Himpunan penyelesaian dari 2x + 5 &le; 3x - 3 adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '5075f1e6ee6be6fb97f6301f64a8d50b', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422f78233ab1b', '0640f17422f30421a005', '063ce682801be89951aa', '0640f174220eea62d296', '<p>|x | x &ge; 8,x bilangan bulat}</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422fb2ad9deae', '0640f17422f30421a005', '063ce682801be89951aa', '0640f174220eea62d296', '<p>{x | x &gt; 8, x bilangan bulat}</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17422fe3e6753bb', '0640f17422f30421a005', '063ce682801be89951aa', '0640f174220eea62d296', '<p>{x | x &le; 8, x bilangan bulat}</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423013a9fbf4c', '0640f17422f30421a005', '063ce682801be89951aa', '0640f174220eea62d296', '<p>{x | x &lt; 8,x bilangan bulat}</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f1742304e8d29062', '<p>Perhatikan pernyataan berikut!<br> I. 4x<sup>2</sup> - 9 = (2x + 3)(2x - 3)<br> II. 2x<sup>2</sup> + x - 3 = (2x - 3)(x + 1)<br> III. x<sup>2</sup> + x - 6 = (x + 3)(x - 2)<br> IV. x<sup>2</sup> + 4x - 5 = (x - 5)(x + 1)<br> Pernyataan yang benar adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '9e623b7bf22ac251faee94c7a7d0922e', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742308ee5f351b', '0640f1742304e8d29062', '063ce682801be89951aa', '0640f174220eea62d296', '<p>I dan II</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174230d361551d4', '0640f1742304e8d29062', '063ce682801be89951aa', '0640f174220eea62d296', '<p>II dan III</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742311c9885fa4', '0640f1742304e8d29062', '063ce682801be89951aa', '0640f174220eea62d296', '<p>I dan III</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742315399de45c', '0640f1742304e8d29062', '063ce682801be89951aa', '0640f174220eea62d296', '<p>II dan IV</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17423188fcdbeee', '<p>Persamaan garis yang melalui titik A (-2 , -5) dan B (3 , -7) adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '8cdb119905f27bb81b12780cbdc15f44', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174231bd12590a1', '0640f17423188fcdbeee', '063ce682801be89951aa', '0640f174220eea62d296', '<p>2x - 5y = -29</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174231eec786130', '0640f17423188fcdbeee', '063ce682801be89951aa', '0640f174220eea62d296', '<p>2x - 5y = -3</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423220a6bcbba', '0640f17423188fcdbeee', '063ce682801be89951aa', '0640f174220eea62d296', '<p>2x + 5y = -3</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174232507a43bc9', '0640f17423188fcdbeee', '063ce682801be89951aa', '0640f174220eea62d296', '<p>2x + 5y = -29</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f1742328080bc0c0', '<p>Gradien garis 6y + 3x = -10 adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '840aa283c49917ba901ed4f870399f3e', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174232b026f2bb5', '0640f1742328080bc0c0', '063ce682801be89951aa', '0640f174220eea62d296', '<p>2</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174232de2274222', '0640f1742328080bc0c0', '063ce682801be89951aa', '0640f174220eea62d296', '<p>&frac12;</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742330be72d8fd', '0640f1742328080bc0c0', '063ce682801be89951aa', '0640f174220eea62d296', '<p>-2</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742334dc70d7dd', '0640f1742328080bc0c0', '063ce682801be89951aa', '0640f174220eea62d296', '<p>-&frac12;</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f1742338b7c7a6a5', '<p>Jumlah tiga bilangan genap berurutan adalah 54. Jumlah bilangan terkecil dan terbesar adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '289c80d5db8690590e06e1bf5a221e31', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174233d363d2dd4', '0640f1742338b7c7a6a5', '063ce682801be89951aa', '0640f174220eea62d296', '<p>34</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423410ce2472f', '0640f1742338b7c7a6a5', '063ce682801be89951aa', '0640f174220eea62d296', '<p>36</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174234506efb205', '0640f1742338b7c7a6a5', '063ce682801be89951aa', '0640f174220eea62d296', '<p>38</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742348f0f4e865', '0640f1742338b7c7a6a5', '063ce682801be89951aa', '0640f174220eea62d296', '<p>40</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174234d2f2806c5', '<p>Diketahui<br>
+M = {x | x &le; 7, x bilangan ganjil} dan<br>
+N = {x | 4 &le; x &le; 11, x bilangan prima}.<br>
+M N adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '38b04ee9f63b2870bce6e65efab35d77', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174235237880a16', '0640f174234d2f2806c5', '063ce682801be89951aa', '0640f174220eea62d296', '<p>{1, 3, 5, 7}</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423575d42aacc', '0640f174234d2f2806c5', '063ce682801be89951aa', '0640f174220eea62d296', '<p>{3, 5, 7, 11}</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174235c0166a828', '0640f174234d2f2806c5', '063ce682801be89951aa', '0640f174220eea62d296', '<p>{1, 3, 5, 7, 11}</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423600547243c', '0640f174234d2f2806c5', '063ce682801be89951aa', '0640f174220eea62d296', '<p>{1, 3, 5, 5, 77, 11}</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f1742364aba18de4', '<p>Fungsi h dinyatakan dengan rumus h(x) = ax + b.<br>
+Jika h(5) = 16 dan h(4) = 11, maka nilai h(-1) adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', 'a7b24c686f9dd7de762e30577aba0aff', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742369701fd9a2', '0640f1742364aba18de4', '063ce682801be89951aa', '0640f174220eea62d296', '<p>-14</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174236defa8cab4', '0640f1742364aba18de4', '063ce682801be89951aa', '0640f174220eea62d296', '<p>-4</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174237289043266', '0640f1742364aba18de4', '063ce682801be89951aa', '0640f174220eea62d296', '<p>4</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423775f9249b3', '0640f1742364aba18de4', '063ce682801be89951aa', '0640f174220eea62d296', '<p>10</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174237bf239ddf7', '<p>Harga 3 pensil dan 6 pulpen Rp 15.000,00, sedangkan harga 2 pensil dan 3 pulpen Rp 8.000,00. Harga 4 pulpen dan 2 pensil adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '75f3ee0f6fe765e617b2a88198fce7ba', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742380334f9745', '0640f174237bf239ddf7', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 16.000,00</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423855e1bb20f', '0640f174237bf239ddf7', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 14.000,00</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174238a0b4c04cf', '0640f174237bf239ddf7', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 10.000,00</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174238e854c4bc2', '0640f174237bf239ddf7', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 6.000,00</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174239373d2bfeb', '<p>Keliling sebuah taman berbentuk belah ketupat adalah 104 meter. Jika panjang salah satu diagonalnya 20 meter, luas taman tersebut adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '0c3f9d0bd8d5d8fb3950e74db3c3a5b3', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423980b657847', '0640f174239373d2bfeb', '063ce682801be89951aa', '0640f174220eea62d296', '<p>320 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174239c7932f637', '0640f174239373d2bfeb', '063ce682801be89951aa', '0640f174220eea62d296', '<p>480 cm<sup>2</sup></p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423a0ea9d4b4d', '0640f174239373d2bfeb', '063ce682801be89951aa', '0640f174220eea62d296', '<p>640 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423a4e82e06dc', '0640f174239373d2bfeb', '063ce682801be89951aa', '0640f174220eea62d296', '<p>960 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17423a9090ccd61', '<p>Diketahui &Delta;ABC kongruen dengan &Delta;DEF, A = E dan C = D.<br> Pasangan sisi yang sama panjang adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '9ca86cfcfedccbc8262fc9e410ec1e30', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423adc78837e9', '0640f17423a9090ccd61', '063ce682801be89951aa', '0640f174220eea62d296', '<p>AC = DF</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423bacd96d84e', '0640f17423a9090ccd61', '063ce682801be89951aa', '0640f174220eea62d296', '<p>BC = EF</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423bfc8006c1b', '0640f17423a9090ccd61', '063ce682801be89951aa', '0640f174220eea62d296', '<p>AB = EF</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423c559487b76', '0640f17423a9090ccd61', '063ce682801be89951aa', '0640f174220eea62d296', '<p>AC = EF</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17423caf56c7204', '<p>Diketahui segitiga ABC yang panjang sisinya 10 cm, 24 cm dan 26 cm.<br>
+Sebangun dengan segitiga PQR dengan panjang sisinya 25 cm, 60 cm dan 65 cm. Perbandingan sisi segitiga ABC dengan segitiga PQR adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', 'aba7943e449650719b2fd444d4025fe0', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423d0bed25ef1', '0640f17423caf56c7204', '063ce682801be89951aa', '0640f174220eea62d296', '<p>1 : 5</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423d771cf5d27', '0640f17423caf56c7204', '063ce682801be89951aa', '0640f174220eea62d296', '<p>2 : 5</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423dc7d953e36', '0640f17423caf56c7204', '063ce682801be89951aa', '0640f174220eea62d296', '<p>5 : 2</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423e0c518602b', '0640f17423caf56c7204', '063ce682801be89951aa', '0640f174220eea62d296', '<p>5 : 1</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17423e9b9d2bd7a', '<p>Perhatikan gambar di bawah!</p>
+<p><img alt=\"\" src=\"media.edu/school/063ce682801be89951aa/test/0640f174220eea62d296/41c27c_0b8f7e6064b3749ecbddaa68bdac5798.png\"><br> Panjang EF adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', 'bfd7bd59b385ee0d08da81944bdadf89', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423eded495ff7', '0640f17423e9b9d2bd7a', '063ce682801be89951aa', '0640f174220eea62d296', '<p>2 cm</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423f1c40284db', '0640f17423e9b9d2bd7a', '063ce682801be89951aa', '0640f174220eea62d296', '<p>6 cm</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423f5724e8132', '0640f17423e9b9d2bd7a', '063ce682801be89951aa', '0640f174220eea62d296', '<p>12 cm</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17423f9e6039d53', '0640f17423e9b9d2bd7a', '063ce682801be89951aa', '0640f174220eea62d296', '<p>14 cm</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174240229c54079', '<p>Pada persegi KLMN dan persegipanjang PQRS diketahui panjang PQ = 10 cm, QR = 15 cm, ML = 20 cm dan luas yang diarsir 67 cm<sup>2</sup>.</p>
+<p><img alt=\"\" src=\"media.edu/school/063ce682801be89951aa/test/0640f174220eea62d296/20c537_016442be87612730502f4a078b3b5192.png\"></p>
+<p>Luas daerah yang tidak diarsir adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '1cb508f3bc9242c2c8032c2811b57061', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742406bcb059ab', '0640f174240229c54079', '063ce682801be89951aa', '0640f174220eea62d296', '<p>416 cm<sup>2</sup></p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174240b0409005a', '0640f174240229c54079', '063ce682801be89951aa', '0640f174220eea62d296', '<p>467 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174240fa19ce04e', '0640f174240229c54079', '063ce682801be89951aa', '0640f174220eea62d296', '<p>476 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174241514924392', '0640f174240229c54079', '063ce682801be89951aa', '0640f174220eea62d296', '<p>486 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f1742419f7b92d16', '<p>Lapangan upacara sekolah berbentuk persegi panjang dengan ukuran 26 m x 14 m. siswa melakukan pemanasan dengan berlari mengelilingi lapangan sebanyak 3 kali. Jarak tempuh siswa tersebut adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', 'ebdf6e364a036f2fb70dcdc5a5c440ba', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174241ebad11181', '0640f1742419f7b92d16', '063ce682801be89951aa', '0640f174220eea62d296', '<p>80 m</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424232d4ecb92', '0640f1742419f7b92d16', '063ce682801be89951aa', '0640f174220eea62d296', '<p>160 m</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742427791ea3ad', '0640f1742419f7b92d16', '063ce682801be89951aa', '0640f174220eea62d296', '<p>200 m</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174242c17a02c15', '0640f1742419f7b92d16', '063ce682801be89951aa', '0640f174220eea62d296', '<p>240 m</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17424305a8ad8f4', '<p>Segitiga DEF tumpul di D, ditarik garis dari titik D dan tegak lurus EF. Garis tersebut adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '8a823643198eff9c7b5918da56f2a589', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742436003ff494', '0640f17424305a8ad8f4', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Garis bagi</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174243a9617eb11', '0640f17424305a8ad8f4', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Garis tinggi</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174243f5c2f934d', '0640f17424305a8ad8f4', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Garis sumbu</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742443d8589a6b', '0640f17424305a8ad8f4', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Garis berat</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174244c07a9460c', '<p>Perhatikan gambar!</p>
+<p><img alt=\"\" src=\"media.edu/school/063ce682801be89951aa/test/0640f174220eea62d296/3798f3_ccc456e3f38c41fb7fd676827868df57.png\"></p>
+<p>Besar penyiku POR adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '1d83c26145b49939215602e84c7f408b', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174245164016e0c', '0640f174244c07a9460c', '063ce682801be89951aa', '0640f174220eea62d296', '<p>49&deg;</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174245678c5118f', '0640f174244c07a9460c', '063ce682801be89951aa', '0640f174220eea62d296', '<p>41&deg;</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174245bb8a53baa', '0640f174244c07a9460c', '063ce682801be89951aa', '0640f174220eea62d296', '<p>31&deg;</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174246050014bec', '0640f174244c07a9460c', '063ce682801be89951aa', '0640f174220eea62d296', '<p>18&deg;</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f1742469637f3824', '<p>Perhatikan gambar!</p>
+<p><img alt=\"\" src=\"media.edu/school/063ce682801be89951aa/test/0640f174220eea62d296/2e20c7_bc70b5772a8082f24b65b743e646382c.png\"></p>
+<p>Titik O adalah pusat lingkaran. Diketahui ABE + ACE + ADE = 96&deg;.<br> Besar AOE adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '6f1188f43c5c94eb7c0c9a959595531c', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174246d85bd5ab1', '0640f1742469637f3824', '063ce682801be89951aa', '0640f174220eea62d296', '<p>32&deg;</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174247146619c4c', '0640f1742469637f3824', '063ce682801be89951aa', '0640f174220eea62d296', '<p>48&deg;</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742475d8ab4c2f', '0640f1742469637f3824', '063ce682801be89951aa', '0640f174220eea62d296', '<p>64&deg;</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174247aef473a78', '0640f1742469637f3824', '063ce682801be89951aa', '0640f174220eea62d296', '<p>84&deg;</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174247fee0c4793', '<p>Dua buah lingkaran masing-masing mempunyai jari-jari 14 cm dan 2 cm.<br>
+Jika jarak antara kedua pusat lingkaran 20 cm, panjang sisi garis singgung persekutuan luar dua lingkaran tersebut adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '4d5e9b2aadfcaa14b07ebff70ff05af9', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742484b22f959c', '0640f174247fee0c4793', '063ce682801be89951aa', '0640f174220eea62d296', '<p>16 cm</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742489898bcbb7', '0640f174247fee0c4793', '063ce682801be89951aa', '0640f174220eea62d296', '<p>18 cm</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174248d5b436e1b', '0640f174247fee0c4793', '063ce682801be89951aa', '0640f174220eea62d296', '<p>22 cm</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424915cd591f7', '0640f174247fee0c4793', '063ce682801be89951aa', '0640f174220eea62d296', '<p>24 cm</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f1742499404cd195', '<p>Perhatikan gambar!</p>
+<p><img alt=\"\" src=\"media.edu/school/063ce682801be89951aa/test/0640f174220eea62d296/2aca32_13ea6ccf79c96dc86257ddce16849d80.png\"></p>
+<p>Jika luas juring ORS = 15 cm<sup>2</sup>, luas juring OPQ adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', 'fc21162d2019c02f62e56f82d48d5b61', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174249f3bbde76e', '0640f1742499404cd195', '063ce682801be89951aa', '0640f174220eea62d296', '<p>15 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424a361a147d1', '0640f1742499404cd195', '063ce682801be89951aa', '0640f174220eea62d296', '<p>18 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424a7b16c2989', '0640f1742499404cd195', '063ce682801be89951aa', '0640f174220eea62d296', '<p>21 cm<sup>2</sup></p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424ab9e513f77', '0640f1742499404cd195', '063ce682801be89951aa', '0640f174220eea62d296', '<p>30 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17424b14fe5d925', '<p>Sebuah model kerangka balok terbuat dari kawat dengan ukuran panjang 30 cm, lebar 40 cm, dan tinggi 45 cm. Panjang kawat minimal yang diperlukan untuk membuat 2 model kerangka balok adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '30156b8d799da0d12f62c8e2472023e9', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424b573c07ed6', '0640f17424b14fe5d925', '063ce682801be89951aa', '0640f174220eea62d296', '<p>115 cm</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424b95ee16dce', '0640f17424b14fe5d925', '063ce682801be89951aa', '0640f174220eea62d296', '<p>230 cm</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424bddc572a2d', '0640f17424b14fe5d925', '063ce682801be89951aa', '0640f174220eea62d296', '<p>460 cm</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424c2b32a82ac', '0640f17424b14fe5d925', '063ce682801be89951aa', '0640f174220eea62d296', '<p>920 cm</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17424ca9696dc7d', '<p>Perhatikan gambar kerucut di bawah!</p>
+<p><img alt=\"\" src=\"media.edu/school/063ce682801be89951aa/test/0640f174220eea62d296/b512c6_a00e4b20426935fe962b5c596e6a0aee.png\"></p>
+<p>Yang merupakan garis pelukis kerucut adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', 'bd2c15762b20127320774f2f85bda5e1', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424cf2940e1f8', '0640f17424ca9696dc7d', '063ce682801be89951aa', '0640f174220eea62d296', '<p>KL</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424d368abbcaa', '0640f17424ca9696dc7d', '063ce682801be89951aa', '0640f174220eea62d296', '<p>MN</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424d7fe6c5222', '0640f17424ca9696dc7d', '063ce682801be89951aa', '0640f174220eea62d296', '<p>NL</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424dc02c4744b', '0640f17424ca9696dc7d', '063ce682801be89951aa', '0640f174220eea62d296', '<p>KM</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17424e310afe09a', '<p>Perhatikan limas T. ABCD alasnya berbentuk persegi. Keliling alas limas 72 cm, dan panjang TP = 15 cm.</p>
+<p><img alt=\"\" src=\"media.edu/school/063ce682801be89951aa/test/0640f174220eea62d296/16df15_f777baf308abb8304869986c692e7021.png\"></p>
+<p>Volume limas tersebut adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '72bb474b1f96d16ea9cc94cce724a30e', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424e8163734bc', '0640f17424e310afe09a', '063ce682801be89951aa', '0640f174220eea62d296', '<p>4.860 cm<sup>3</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424ecd90e20f4', '0640f17424e310afe09a', '063ce682801be89951aa', '0640f174220eea62d296', '<p>3.888 cm<sup>3</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424f114a7a86f', '0640f17424e310afe09a', '063ce682801be89951aa', '0640f174220eea62d296', '<p>1.620 cm<sup>3</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424f6200747eb', '0640f17424e310afe09a', '063ce682801be89951aa', '0640f174220eea62d296', '<p>1.296 cm<sup>3</sup></p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17424fad5f8ca69', '<p>Volume bola terbesar yang dapat dimasukkan kedalam sebuah kubus dengan panjang rusuk 12 cm adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '0b78416246f17cd87ebb6684c6c1810f', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17424ff806f37f9', '0640f17424fad5f8ca69', '063ce682801be89951aa', '0640f174220eea62d296', '<p>196 &pi; cm3</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174250436e02efe', '0640f17424fad5f8ca69', '063ce682801be89951aa', '0640f174220eea62d296', '<p>288 &pi; cm3</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174250a08ddcf68', '0640f17424fad5f8ca69', '063ce682801be89951aa', '0640f174220eea62d296', '<p>384 &pi; cm3</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174250ed4887d5f', '0640f17424fad5f8ca69', '063ce682801be89951aa', '0640f174220eea62d296', '<p>576 &pi; cm3</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f1742514717ac58b', '<p>Sebuah aula berbentuk balok dengan ukuran panjang 8 meter, lebar 6 meter, dan tinggi 5 meter. Dinding bagian dalamnya dicat dengan biaya Rp 50.000,00 per meter persegi. Seluruh biaya pengecatan aula adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '77a78438ba2c2b0c3bdcaedb3c023f56', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425199f889cd7', '0640f1742514717ac58b', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 9.200.000,00</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174251d78f2cf5a', '0640f1742514717ac58b', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 7.000.000,00</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742521ebd7cd58', '0640f1742514717ac58b', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 4.200.000,00</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174252594b33287', '0640f1742514717ac58b', '063ce682801be89951aa', '0640f174220eea62d296', '<p>Rp 3.500.000,00</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f1742529ab4e465d', '<p>Panjang diagonal sisi kubus adalah 6&radic;2 cm.<br> Luas seluruh permukaan kubus adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '87bd32a248f2a427cbec0518bf8e5190', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174252d90dca06e', '0640f1742529ab4e465d', '063ce682801be89951aa', '0640f174220eea62d296', '<p>72 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742530d234d126', '0640f1742529ab4e465d', '063ce682801be89951aa', '0640f174220eea62d296', '<p>108 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742533fc739c0a', '0640f1742529ab4e465d', '063ce682801be89951aa', '0640f174220eea62d296', '<p>216 cm<sup>2</sup></p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174253713266d6c', '0640f1742529ab4e465d', '063ce682801be89951aa', '0640f174220eea62d296', '<p>864 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174253a0b6b7dec', '<p>Sebuah tabung jari-jari alasnya 35 cm dan tingginya 10 cm.<br> Luas seluruh permukaan tabung adalah... (&pi; = 22/7)</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '7786fd829e7c03d4110ead481092e493', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174253d63121d3d', '0640f174253a0b6b7dec', '063ce682801be89951aa', '0640f174220eea62d296', '<p>1.925 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425406d18f352', '0640f174253a0b6b7dec', '063ce682801be89951aa', '0640f174220eea62d296', '<p>2.200 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425435563b740', '0640f174253a0b6b7dec', '063ce682801be89951aa', '0640f174220eea62d296', '<p>3.850 cm<sup>2</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425466d62eef3', '0640f174253a0b6b7dec', '063ce682801be89951aa', '0640f174220eea62d296', '<p>9.900 cm<sup>2</sup></p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174254a6b1a7820', '<p>Rata-rata nilai ulangan matematika 36 siswa adalah 86. Terdapat 4 siswa mengikuti ulangan susulan dan memperoleh nilai rata-rata 80. Rata-rata nilai seluruh siswa adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '9d973fe59f047b5ab63c0ba232e12788', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174254e0b4d2146', '0640f174254a6b1a7820', '063ce682801be89951aa', '0640f174220eea62d296', '<p>86,2</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174255208405153', '0640f174254a6b1a7820', '063ce682801be89951aa', '0640f174220eea62d296', '<p>85,4</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742556372d591e', '0640f174254a6b1a7820', '063ce682801be89951aa', '0640f174220eea62d296', '<p>85,0</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174255a6d9da285', '0640f174254a6b1a7820', '063ce682801be89951aa', '0640f174220eea62d296', '<p>84,6</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174255e724e2609', '<p>Modus dari data 5, 6, 8, 5, 4, 5, 6, 7, 5, 4, 6, 5, 5 adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '860c8852258a997b234cc15c960de7cb', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742561f648f922', '0640f174255e724e2609', '063ce682801be89951aa', '0640f174220eea62d296', '<p>8</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742565fd3b5c45', '0640f174255e724e2609', '063ce682801be89951aa', '0640f174220eea62d296', '<p>6</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425693e7936b1', '0640f174255e724e2609', '063ce682801be89951aa', '0640f174220eea62d296', '<p>5</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174256ce4fe34c8', '0640f174255e724e2609', '063ce682801be89951aa', '0640f174220eea62d296', '<p>3</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f1742573d4e04e9e', '<p>Parto minum 80 mg obat untuk mengendalikan tekanan darahnya. Grafik berikut memperlihatkan banyaknya obat pada saat itu beserta banyaknya obat dalam darah Parto setelah satu, dua, tiga dan empat hari.</p>
+<p><img alt=\"\" src=\"media.edu/school/063ce682801be89951aa/test/0640f174220eea62d296/0700d8_36535f6f3587159c87a305968ebbc76b.png\"></p>
+<p>Banyaknya obat yang masih aktif pada akhir hari pertama adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '254cc5a507858d71b7f76e1b9cffffba', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742577cf5fbec0', '0640f1742573d4e04e9e', '063ce682801be89951aa', '0640f174220eea62d296', '<p>6 mg</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174257c7f2b1552', '0640f1742573d4e04e9e', '063ce682801be89951aa', '0640f174220eea62d296', '<p>12 mg</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742580267b8465', '0640f1742573d4e04e9e', '063ce682801be89951aa', '0640f174220eea62d296', '<p>26 mg</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742583859030ed', '0640f1742573d4e04e9e', '063ce682801be89951aa', '0640f174220eea62d296', '<p>32 mg</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f174258a1b4c6a6a', '<p>Diagram batang di bawah menunjukkan produksi minyak bumi (dalam ribuan m3) pada tahun 2000 - 2005.</p>
+<p><img alt=\"\" src=\"media.edu/school/063ce682801be89951aa/test/0640f174220eea62d296/319a63_7698e703444aec25198717f1431ca49b.png\"></p>
+<p>Selisih produksi tahun 2002 dan tahun 2005 adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', 'd303823aa8c72c2b96989c101ce05594', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174258e94c98964', '0640f174258a1b4c6a6a', '063ce682801be89951aa', '0640f174220eea62d296', '<p>40.000 m<sup>3</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425935452a10f', '0640f174258a1b4c6a6a', '063ce682801be89951aa', '0640f174220eea62d296', '<p>60.000 m<sup>3</sup></p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f1742597a6642e41', '0640f174258a1b4c6a6a', '063ce682801be89951aa', '0640f174220eea62d296', '<p>100.000 m<sup>3</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f174259c0363e1b5', '0640f174258a1b4c6a6a', '063ce682801be89951aa', '0640f174220eea62d296', '<p>160.000 m<sup>3</sup></p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17425a00f4809fc', '<p>Tiga keping uang logam dilempar bersama-sama. Peluang muncul ketiganya gambar adalah...</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', 'e3857145e530fb69f03e1b89e0c95d5f', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425a3cf080742', '0640f17425a00f4809fc', '063ce682801be89951aa', '0640f174220eea62d296', '<p>1/8</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425a790a44fbe', '0640f17425a00f4809fc', '063ce682801be89951aa', '0640f174220eea62d296', '<p>3/8</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425ab31a67d73', '0640f17425a00f4809fc', '063ce682801be89951aa', '0640f174220eea62d296', '<p>5/8</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425af1c281353', '0640f17425a00f4809fc', '063ce682801be89951aa', '0640f174220eea62d296', '<p>7/8</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('0640f17425b5d82b20fb', '<p>Roni diperbolehkan ibunya untuk mengambil satu permen dari sebuah kantong. Dia tidak dapat melihat warna permen tersebut. Banyaknya permen dengan masing-masing warna dalam kantong tersebut ditunjukkan dalam grafik berikut:</p>
+<p><img alt=\"\" src=\"media.edu/school/063ce682801be89951aa/test/0640f174220eea62d296/fb0057_b8fa2146ee15890d1d3b3b7a76ad6d33.png\"></p>
+<p>Berapakah peluang Roni mengambil permen berwarna merah?</p>', '063ce682801be89951aa', '0640f174220eea62d296', true, '2', '1', 'upper-alpha', '30a773b8b7d7e580c0dc96ced3a51f15', '',
+								'2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425ba1958bd14', '0640f17425b5d82b20fb', '063ce682801be89951aa', '0640f174220eea62d296', '<p>100%</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425bd4188cf4e', '0640f17425b5d82b20fb', '063ce682801be89951aa', '0640f174220eea62d296', '<p>20%</p>', '1', '1', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425c09f10bd5c', '0640f17425b5d82b20fb', '063ce682801be89951aa', '0640f174220eea62d296', '<p>25%</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('0640f17425c3e3aa6a0d', '0640f17425b5d82b20fb', '063ce682801be89951aa', '0640f174220eea62d296', '<p>50%</p>', '1', '0', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa', '2023-03-13 19:29:54', 'aaaaaaaaaaaaa');

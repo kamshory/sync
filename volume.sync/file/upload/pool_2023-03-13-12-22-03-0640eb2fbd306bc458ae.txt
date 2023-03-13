@@ -1,0 +1,5 @@
+{"op":"CREATEDIR","tm":1678684919,"path":"D:\/xampp\/htdocs\/edu-bootstrap\/media.edu\/user.avatar"}
+{"op":"CREATEDIR","tm":1678684919,"path":"D:\/xampp\/htdocs\/edu-bootstrap\/media.edu\/user.avatar\/admin"}
+{"op":"CREATEDIR","tm":1678684919,"path":"D:\/xampp\/htdocs\/edu-bootstrap\/media.edu\/user.avatar\/admin\/aaaaaaaaaaaaa"}
+{"op":"CREATEFILE","tm":1678684920,"path":"\/media.edu\/user.avatar\/admin\/aaaaaaaaaaaaa\/img-300x300.jpg"}
+{"op":"CREATEFILE","tm":1678684920,"path":"\/media.edu\/user.avatar\/admin\/aaaaaaaaaaaaa\/img-150x150.jpg"}
