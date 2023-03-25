@@ -1,0 +1,14 @@
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_test` SET 
+	`name` = 'Try Out Ujian Nasional Matematika (IPA) Paket 03', `class` = '0641a49e74a33eaacad7,0641a49e74b269120f04', `school_program_id` = '0641a49e74a57fa6ac4b', `subject` = '', `teacher_id` = '', `description` = '', 
+	`guidance` = 'Pilihlah jawaban yang paling tepat!', `open` = '0', `has_limits` = '1', `trial_limits` = '1', `threshold` = '75', 
+	`assessment_methods` = 'H', `number_of_question` = '10', `number_of_option` = '5', 
+	`question_per_page` = '10', `random` = '1', `random_option` = '0', 
+	`random_distribution` = '0', `duration` = '3600', `has_alert` = '1', 
+	`alert_time` = '300', `alert_message` = 'Lihat waktu sisa Anda. Silakan periksa kembali jawaban Anda. Segera kirimkan jawaban sebelum waktunya habis.', `autosubmit` = '0', `standard_score` = '1', 
+	`penalty` = '0', `score_notification` = '0', `publish_answer` = '0', 
+	`time_answer_publication` = null, `test_availability` = 'F', 
+	`available_from` = null, `available_to` = null, `time_edit` = '2023-03-25 12:56:55', 
+	`member_edit` = '0641a49cbc1d47a145a3', `role_edit` = 'A', 
+	`ip_edit` = '127.0.0.1', `active` = '0'
+	WHERE `test_id` = '0641a5366008d6a3bfae';

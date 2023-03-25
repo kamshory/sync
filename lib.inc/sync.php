@@ -11,16 +11,17 @@ if(isset($_SERVER['HTTP_AUTHORIZATION']))
 {
     $eup = trim(substr($_SERVER['HTTP_AUTHORIZATION'], 6));
     $up = base64_decode($eup);
-
+    $auth = null;
     if(stripos($up, ":") !== false)
     {
         list($_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW']) = explode(':' , $up);
         $username = $_SERVER['PHP_AUTH_USER'];
         $password = $_SERVER['PHP_AUTH_PW'];
-        $auth = ($username == 'user' && $password == 'password');
+        $auth = new \Sync\UserAuth($database, $username, $password);
+        $auth->login();
     }
 
-    if(!$auth)
+    if(!$auth->isSuccess())
     {
         $result = array(
             'response_code' => '09',

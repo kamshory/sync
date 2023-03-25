@@ -1,0 +1,1757 @@
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_school` SET
+	`description` = '<p><img class=\"ascii-svg\" src=\"lib.tools/asciisvg/svgimg.php?sscr=-7.5%2C7.5%2C-5%2C5%2C1%2C1%2C1%2C1%2C1%2C300%2C200%2Cfunc%2C4*sin(x)%20%2B%20(cos(5x)%2F2)%2Cnull%2C0%2C0%2C-6%2C6%2Cred%2C1%2Cnone\" style=\"width: 300px; height: 200px; vertical-align: middle; float: none;\" data-sscr=\"-7.5%2C7.5%2C-5%2C5%2C1%2C1%2C1%2C1%2C1%2C300%2C200%2Cfunc%2C4*sin(x)%20%2B%20(cos(5x)%2F2)%2Cnull%2C0%2C0%2C-6%2C6%2Cred%2C1%2Cnone\"></p>
+<p><img class=\"ascii-svg\" src=\"lib.tools/asciisvg/svgimg.php?sscr=-7.5%2C7.5%2C-5%2C5%2C1%2C1%2C1%2C1%2C1%2C300%2C200%2Cfunc%2C4*sin(0.6x)%20%2B%20(cos(5x)%2F2)%2Cnull%2C0%2C0%2C-6%2C6%2Cred%2C1%2Cnone\" style=\"width: 300px; height: 200px; vertical-align: middle; float: none;\" data-sscr=\"-7.5%2C7.5%2C-5%2C5%2C1%2C1%2C1%2C1%2C1%2C300%2C200%2Cfunc%2C4*sin(0.6x)%20%2B%20(cos(5x)%2F2)%2Cnull%2C0%2C0%2C-6%2C6%2Cred%2C1%2Cnone\"></p>
+<p><img src=\"media.edu/school/063ce682801be89951aa/description/new-directory-2/cake-png-transparent-clip-art-image-transparent-background-cake-clipart-11563022028ohvtrogymt.png\" alt=\"\" width=\"840\" height=\"859\"></p>'
+	WHERE `school_id` = '063ce682801be89951aa';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_admin` 
+		(`admin_id`, `token_admin`, `school_id`, `name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, 
+		`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+		('aaaaaaaaaaaaa', '16128d38d5ed261e5f86d6a1a77aa5ce', '063ce682801be89951aa', 'admin', 'M', 'Jambi', '', '081266612126', 'admin@planetbiru.com', 'c3284d0f94606de1fd2af172aba15bf3',  
+		'', '', 'aaaaaaaaaaaaa', 'aaaaaaaaaaaaa', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_admin` SET `school_id` = '063ce682801be89951aa' WHERE `admin_id` = 'aaaaaaaaaaaaa';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_school` SET
+	`description` = '<p><img class=\"ascii-svg\" src=\"lib.tools/asciisvg/svgimg.php?sscr=-7.5%2C7.5%2C-5%2C5%2C1%2C1%2C1%2C1%2C1%2C300%2C200%2Cfunc%2C4*sin(x)%20%2B%20(cos(5x)%2F2)%2Cnull%2C0%2C0%2C-6%2C6%2Cred%2C1%2Cnone\" style=\"width: 300px; height: 200px; vertical-align: middle; float: none;\" data-sscr=\"-7.5%2C7.5%2C-5%2C5%2C1%2C1%2C1%2C1%2C1%2C300%2C200%2Cfunc%2C4*sin(x)%20%2B%20(cos(5x)%2F2)%2Cnull%2C0%2C0%2C-6%2C6%2Cred%2C1%2Cnone\"></p>
+<p><img class=\"ascii-svg\" src=\"lib.tools/asciisvg/svgimg.php?sscr=-7.5%2C7.5%2C-5%2C5%2C1%2C1%2C1%2C1%2C1%2C300%2C200%2Cfunc%2C4*sin(0.6x)%20%2B%20(cos(5x)%2F2)%2Cnull%2C0%2C0%2C-6%2C6%2Cred%2C1%2Cnone\" style=\"width: 300px; height: 200px; vertical-align: middle; float: none;\" data-sscr=\"-7.5%2C7.5%2C-5%2C5%2C1%2C1%2C1%2C1%2C1%2C300%2C200%2Cfunc%2C4*sin(0.6x)%20%2B%20(cos(5x)%2F2)%2Cnull%2C0%2C0%2C-6%2C6%2Cred%2C1%2Cnone\"></p>
+<p><img src=\"media.edu/school/063ce682801be89951aa/description/new-directory-2/cake-png-transparent-clip-art-image-transparent-background-cake-clipart-11563022028ohvtrogymt.png\" alt=\"\" width=\"840\" height=\"859\"></p>'
+	WHERE `school_id` = '063ce682801be89951aa';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_admin` 
+		(`admin_id`, `school_id`, `name`, `gender`, `birth_place`, `birth_day`, `username`, `admin_level`, `token_admin`, `email`, `phone`, `address`, `country_id`, `state_id`, `city_id`, `password`, `password_initial`, `auth`, `picture_rand`, `time_create`, `time_edit`, `time_last_activity`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `ip_last_activity`, `blocked`, `active`) VALUES
+		('064199f1b2fa18b983ec', '', 'Admin', 'M', 'Jambi', '2000-01-01', 'admin', 1, 'c3284d0f94606de1fd2af172aba15bf3', 'admin@edu.planetbiru.com', '', '', 0, 0, 0, 'c3284d0f94606de1fd2af172aba15bf3', 'admin', '', '742251', '2017-10-13 10:00:00', '017-10-14 00:00:00', '2017-10-14 00:00:00', '0', '064199f1b2fa18b983ec', '127.0.0.1', '127.0.0.1', '127.0.0.1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_admin` 
+		(`admin_id`, `school_id`, `name`, `gender`, `birth_place`, `birth_day`, `username`, `admin_level`, `token_admin`, `email`, `phone`, `address`, `country_id`, `state_id`, `city_id`, `password`, `password_initial`, `auth`, `picture_rand`, `time_create`, `time_edit`, `time_last_activity`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `ip_last_activity`, `blocked`, `active`) VALUES
+		('064199f1b2fa18b983ec', '', 'Admin', 'M', 'Jambi', '2000-01-01', 'admin', 1, 'c3284d0f94606de1fd2af172aba15bf3', 'admin@edu.planetbiru.com', '', '', 0, 0, 0, 'c3284d0f94606de1fd2af172aba15bf3', 'admin', '', '742251', '2017-10-13 10:00:00', '2017-10-14 00:00:00', '2017-10-14 00:00:00', '0', '064199f1b2fa18b983ec', '127.0.0.1', '127.0.0.1', '127.0.0.1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_admin` 
+		(`admin_id`, `school_id`, `name`, `gender`, `birth_place`, `birth_day`, `username`, `admin_level`, `token_admin`, `email`, `phone`, `address`, `country_id`, `state_id`, `city_id`, `password`, `password_initial`, `auth`, `picture_rand`, `time_create`, `time_edit`, `time_last_activity`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `ip_last_activity`, `blocked`, `active`) VALUES
+		('064199f1b2fa18b983ec', '', 'Admin', 'M', 'Jambi', '2000-01-01', 'admin', 1, 'c3284d0f94606de1fd2af172aba15bf3', 'admin@edu.planetbiru.com', '', '', 0, 0, 0, 'c3284d0f94606de1fd2af172aba15bf3', 'admin', '', '742251', '2017-10-14 00:00:00', '2017-10-14 00:00:00', '2017-10-14 00:00:00', '0', '064199f1b2fa18b983ec', '127.0.0.1', '127.0.0.1', '127.0.0.1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_school` 
+					(`school_id`, `school_code`, `token_school`, `name`, `use_national_id`, `school_grade_id`, `public_private`, `principal`, `address`, `phone`, 
+					`email`, `language`, `country_id`, `time_import_first`, `admin_import_first`, `ip_import_first`, 
+					`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+					('06419a228600c8ff6a38', 'sma-planet-edu-jakarta', 'd262869180283f0165fe34a517ccdb65', 'SMA Planet Edu Jakarta', '1', '5', 'U', 'Drs. Mukidi', 'JAKARTA', '0210000011', 
+					'', 'id', 'ID', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '::1', 
+					'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` (`member_id`, `name`, `username`, `email`, `phone`, `gender`, `birth_day`, `birth_place`, `password`, `country_id`, `state_id`, `city_id`, `time_register`, `active`) VALUES 
+			('064199f1b2fa18b983ec', 'Admin', 'admin', 'admin@edu.planetbiru.com', '', 'M', NULL, 'Jambi', 'c3284d0f94606de1fd2af172aba15bf3', '0', '0', '0', '2023-03-21 19:25:12', true);;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_admin` SET
+							`school_id` = '06419a228600c8ff6a38'
+							WHERE `admin_id` = '064199f1b2fa18b983ec';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+							(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+							('064199f1b2fa18b983ec', '06419a228600c8ff6a38', 'A', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_school_program` 
+			(`school_program_id`, `school_id`, `name`, `time_create`, `time_edit`, `active`) VALUES
+			('06419a22865b5bacf664', '06419a228600c8ff6a38', 'IPA', '2023-03-21 19:25:12', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a22865a7c82b6e1', 'f68e0ba034f6243c5b4229ccef8bab9d', '06419a228600c8ff6a38', 'X.IPA1', '10', '06419a22865b5bacf664', 'X.IPA1', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1012', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a22866676e40308', '87cbc8c107ee71e7ebfc907040bb58df', '06419a228600c8ff6a38', 'X.IPA2', '10', '06419a22865b5bacf664', 'X.IPA2', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1013', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a22866ca011be70', 'f0a7995254eaee2358e9a61bf5145b6f', '06419a228600c8ff6a38', 'X.IPA3', '10', '06419a22865b5bacf664', 'X.IPA3', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1014', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a228672a1cab307', '9cde4bffc37f2689d1bb58b703630085', '06419a228600c8ff6a38', 'X.IPA4', '10', '06419a22865b5bacf664', 'X.IPA4', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1015', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a228678bab4f1c2', '88b69ee988d614aa0f915a6d2f392ee0', '06419a228600c8ff6a38', 'X.IPA5', '10', '06419a22865b5bacf664', 'X.IPA5', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1016', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a22867f0bb66989', 'a54a13cad8821393f3f6dd6e012b22c0', '06419a228600c8ff6a38', 'X.IPA6', '10', '06419a22865b5bacf664', 'X.IPA6', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1017', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a22868709c1af68', '2d1de1b0fc2930e777efd78f490b5ca3', '06419a228600c8ff6a38', 'X.IPA7', '10', '06419a22865b5bacf664', 'X.IPA7', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1018', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a22868e25e66c4a', '93d45cadefecf735843269924d10ed7c', '06419a228600c8ff6a38', 'X.IPA8', '10', '06419a22865b5bacf664', 'X.IPA8', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1019', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_school_program` 
+			(`school_program_id`, `school_id`, `name`, `time_create`, `time_edit`, `active`) VALUES
+			('06419a2286980ceb6af4', '06419a228600c8ff6a38', 'IPS', '2023-03-21 19:25:12', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a228696ad0e8c84', '8a5f863029ea7d5a7a9dd2b9b82b49fb', '06419a228600c8ff6a38', 'X.IPS1', '10', '06419a2286980ceb6af4', 'X.IPS1', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1030', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286a29e154f44', 'c9dff671ccfe2bf6b081e9b268d1a426', '06419a228600c8ff6a38', 'X.IPS2', '10', '06419a2286980ceb6af4', 'X.IPS2', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1031', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286a70a44f0c9', '914329f249fe1c83a6e11fbf09165fc5', '06419a228600c8ff6a38', 'X.IPS3', '10', '06419a2286980ceb6af4', 'X.IPS3', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1032', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286ad34062f2e', '0f74f63d49a560657b294b9d0833b541', '06419a228600c8ff6a38', 'X.IPS4', '10', '06419a2286980ceb6af4', 'X.IPS4', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1033', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286b19260d1fb', 'd872031596d81546a02c373c3fc510d7', '06419a228600c8ff6a38', 'XI.IPA1', '11', '06419a22865b5bacf664', 'XI.IPA1', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1124', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286b594c13d44', '0b04de043c91426de72854b31afb6b30', '06419a228600c8ff6a38', 'XI.IPA2', '11', '06419a22865b5bacf664', 'XI.IPA2', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1125', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286b9afd02081', '0891a52bb4ba8bf165fd2f0428d74900', '06419a228600c8ff6a38', 'XI.IPA3', '11', '06419a22865b5bacf664', 'XI.IPA3', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1126', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286bd80192f5a', 'c0dedce82fe476d5650619d8649ca4de', '06419a228600c8ff6a38', 'XI.IPA4', '11', '06419a22865b5bacf664', 'XI.IPA4', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1127', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286c128c36fee', '118e7567e66e47a5d75fc3592d73f9cd', '06419a228600c8ff6a38', 'XI.IPA5', '11', '06419a22865b5bacf664', 'XI.IPA5', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1128', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286c4c12380a3', 'efdad71458f889393c4bac6c5192521c', '06419a228600c8ff6a38', 'XI.IPA6', '11', '06419a22865b5bacf664', 'XI.IPA6', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1129', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286c856917b17', '9b1818fbb07db25956492f727ea24242', '06419a228600c8ff6a38', 'XI.IPA7', '11', '06419a22865b5bacf664', 'XI.IPA7', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1130', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286ce02256c49', 'e755a55565c7d76309f7c5335f483fc9', '06419a228600c8ff6a38', 'XI.IPA8', '11', '06419a22865b5bacf664', 'XI.IPA8', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1131', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286d48a686419', '94d421dcc752d3b32e0cf9db3fe4aedf', '06419a228600c8ff6a38', 'XI.IPS1', '11', '06419a2286980ceb6af4', 'XI.IPS1', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1142', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286d9e6e2a3ab', '97c8f773ad7bbe2512723cd24483446e', '06419a228600c8ff6a38', 'XI.IPS2', '11', '06419a2286980ceb6af4', 'XI.IPS2', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1143', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286df44ce506f', '5742214dc9b6dd09fa12edd6380dfda2', '06419a228600c8ff6a38', 'XI.IPS3', '11', '06419a2286980ceb6af4', 'XI.IPS3', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1144', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286e54d3d7a1b', 'a91c1e740135ad8162daaf4c103fe150', '06419a228600c8ff6a38', 'XI.IPS4', '11', '06419a2286980ceb6af4', 'XI.IPS4', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1145', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286e9fc073f73', '0dea6e15254217a8849eff876b03d2f8', '06419a228600c8ff6a38', 'XII.IPA1', '12', '06419a22865b5bacf664', 'XII.IPA1', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1236', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286ef6bac7b2c', 'efc23358f985c045b0521041ec9132b3', '06419a228600c8ff6a38', 'XII.IPA2', '12', '06419a22865b5bacf664', 'XII.IPA2', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1237', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286f47b6a863e', '2f5d00ebd9a20f9cc0c99c1fb8b6c665', '06419a228600c8ff6a38', 'XII.IPA3', '12', '06419a22865b5bacf664', 'XII.IPA3', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1238', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286f94711f7d3', '01ef8edb37bb2ba88fefbb66715a7240', '06419a228600c8ff6a38', 'XII.IPA4', '12', '06419a22865b5bacf664', 'XII.IPA4', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1239', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2286fe3019bd7e', 'ea23b27807a335b86e0e5084a6457715', '06419a228600c8ff6a38', 'XII.IPA5', '12', '06419a22865b5bacf664', 'XII.IPA5', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1240', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a228702c664225c', 'a1efc441aa3b32414f63b9eecdb76179', '06419a228600c8ff6a38', 'XII.IPA6', '12', '06419a22865b5bacf664', 'XII.IPA6', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1241', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2287073f6f4ead', '3750bdefbc2f24ef2aa7caea628a5dc3', '06419a228600c8ff6a38', 'XII.IPA7', '12', '06419a22865b5bacf664', 'XII.IPA7', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1242', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a22870be42f512c', 'b68705d8df94fd1e01d8e0b60678107f', '06419a228600c8ff6a38', 'XII.IPA8', '12', '06419a22865b5bacf664', 'XII.IPA8', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1243', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2287117ea768b5', 'fc5526c2e78d1d5bf874ab987eade854', '06419a228600c8ff6a38', 'XII.IPS1', '12', '06419a2286980ceb6af4', 'XII.IPS1', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1254', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a2287176b0eb83a', '05db767ea0e66b356a775b8635ad92f6', '06419a228600c8ff6a38', 'XII.IPS2', '12', '06419a2286980ceb6af4', 'XII.IPS2', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1255', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a22871ca2fedd7c', 'dbbdd023a622400d8795366a72f47eb4', '06419a228600c8ff6a38', 'XII.IPS3', '12', '06419a2286980ceb6af4', 'XII.IPS3', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1256', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_class` 
+										(`class_id`, `token_class`, `school_id`, `class_code`, `grade_id`, `school_program_id`, `name`, 
+										`time_create`, `time_edit`, `ip_create`, `ip_edit`, `admin_create`, `admin_edit`, `sort_order`, `default`, `active`) VALUES
+										('06419a228720f5f54025', '3cf6eed10d6b26ab1c5b8f492d2fb59f', '06419a228600c8ff6a38', 'XII.IPS4', '12', '06419a2286980ceb6af4', 'XII.IPS4', 
+										'2023-03-21 19:25:12', '2023-03-21 19:25:12', '::1', '::1', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '1257', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_school_program` SET 
+						`time_create` = '2023-03-21 19:25:12', `time_edit` = '2023-03-21 19:25:12', `ip_create` = '::1', `ip_edit` = '::1', 
+						`admin_create` = '064199f1b2fa18b983ec', `admin_edit` = '064199f1b2fa18b983ec'
+						WHERE `school_id` = '06419a228600c8ff6a38';;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011199', 'Budi Raharjo', '1011199', 'st_1011199@local', 'M', '1999-10-11 07:00:00', 'f99aabe3252b9d075a0d29aac6bdd791', '288409435eae10a94fe54f2881caf6c1', 'en', '08123456781', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011199', 'Budi Raharjo', '651b0ae988f4853bc101e7f1cf3ea24d', '06419a228600c8ff6a38', '1111111', '1011199', '06419a2286f94711f7d3', 
+									'Budi Raharjo', 'M', 'JAKARTA', '1999-10-11 07:00:00', '08123456781', 'st_1011199@local', 'f99aabe3252b9d075a0d29aac6bdd791', 'ae988f', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011199', '06419a228600c8ff6a38', 'S', '06419a2286f94711f7d3', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011199' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011200', 'Muhammad Ramadhan', '1011200', 'st_1011200@local', 'M', '1999-10-12 07:00:00', 'b03edea9f7044fcb9fce43d688921345', '45262edebe31c6661e5087444c382846', 'en', '08123456782', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011200', 'Muhammad Ramadhan', '26deae9373ebff54a89e77f8c443056e', '06419a228600c8ff6a38', '1111112', '1011200', '06419a2286fe3019bd7e', 
+									'Muhammad Ramadhan', 'M', 'JAKARTA', '1999-10-12 07:00:00', '08123456782', 'st_1011200@local', 'b03edea9f7044fcb9fce43d688921345', 'e9373e', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011200', '06419a228600c8ff6a38', 'S', '06419a2286fe3019bd7e', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011200' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011201', 'Agung Ramadhan', '1011201', 'st_1011201@local', 'M', '1999-10-13 07:00:00', '8756c522df274f1889fe408875b13985', 'be0d750c086e7962d9d3c5d29068ca38', 'en', '08123456783', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011201', 'Agung Ramadhan', '04d5e0f9dd599685737598ea5a277752', '06419a228600c8ff6a38', '1111113', '1011201', '06419a228702c664225c', 
+									'Agung Ramadhan', 'M', 'JAKARTA', '1999-10-13 07:00:00', '08123456783', 'st_1011201@local', '8756c522df274f1889fe408875b13985', '0f9dd5', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011201', '06419a228600c8ff6a38', 'S', '06419a228702c664225c', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011201' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011202', 'Sinta Anjani', '1011202', 'st_1011202@local', 'W', '1999-10-14 07:00:00', '7f69e85a24ea1ba7e6fab3094dc7abf8', '784d986bea5050b6422f3268bb0b44b1', 'en', '08123456784', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011202', 'Sinta Anjani', '2179450a825575443d098eb40335b458', '06419a228600c8ff6a38', '1111114', '1011202', '06419a2287073f6f4ead', 
+									'Sinta Anjani', 'W', 'JAKARTA', '1999-10-14 07:00:00', '08123456784', 'st_1011202@local', '7f69e85a24ea1ba7e6fab3094dc7abf8', '50a825', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011202', '06419a228600c8ff6a38', 'S', '06419a2287073f6f4ead', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011202' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011203', 'Siviasari', '1011203', 'st_1011203@local', 'W', '1999-10-15 07:00:00', '72b9637c2dc9ede1bba94f50f335b5e6', '5162b2dfc30d8153316a0165d0f91de3', 'en', '08123456785', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011203', 'Siviasari', '7153a11d640b63f10bf45a3106578440', '06419a228600c8ff6a38', '1111115', '1011203', '06419a22870be42f512c', 
+									'Siviasari', 'W', 'JAKARTA', '1999-10-15 07:00:00', '08123456785', 'st_1011203@local', '72b9637c2dc9ede1bba94f50f335b5e6', '11d640', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011203', '06419a228600c8ff6a38', 'S', '06419a22870be42f512c', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011203' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011204', 'Veni Ananda', '1011204', 'st_1011204@local', 'W', '1999-10-16 07:00:00', '711491de09067894278eb72786de6a33', '4a65fbe465b8c0c60bd8432a1c3b6d0f', 'en', '08123456786', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011204', 'Veni Ananda', '01d41a26709a382ec3c6078dfc7515e9', '06419a228600c8ff6a38', '1111116', '1011204', '06419a2287117ea768b5', 
+									'Veni Ananda', 'W', 'BANDUNG', '1999-10-16 07:00:00', '08123456786', 'st_1011204@local', '711491de09067894278eb72786de6a33', 'a26709', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011204', '06419a228600c8ff6a38', 'S', '06419a2287117ea768b5', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011204' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011205', 'Mukhlis', '1011205', 'st_1011205@local', 'M', '1999-10-17 07:00:00', 'ccc863f0b994e8b45e0ca087a2d60466', '7cb52590b7a7bc925c71d726e36e601f', 'en', '08123456787', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011205', 'Mukhlis', 'd7572415084e0c9d3d85ad6df5e1f57e', '06419a228600c8ff6a38', '1111117', '1011205', '06419a2287176b0eb83a', 
+									'Mukhlis', 'M', 'BANDUNG', '1999-10-17 07:00:00', '08123456787', 'st_1011205@local', 'ccc863f0b994e8b45e0ca087a2d60466', '415084', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011205', '06419a228600c8ff6a38', 'S', '06419a2287176b0eb83a', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011205' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011206', 'Bimantara', '1011206', 'st_1011206@local', 'M', '2000-10-18 07:00:00', 'd46b11c7efcc6b0ebb1822ae7bae614b', '391f63f614c33a8e13dccb026a8299ba', 'en', '08123456788', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011206', 'Bimantara', '63bc4938c7702a0b49357ddf403456d9', '06419a228600c8ff6a38', '1111118', '1011206', '06419a2286c128c36fee', 
+									'Bimantara', 'M', 'BANDUNG', '2000-10-18 07:00:00', '08123456788', 'st_1011206@local', 'd46b11c7efcc6b0ebb1822ae7bae614b', '938c77', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011206', '06419a228600c8ff6a38', 'S', '06419a2286c128c36fee', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011206' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011207', 'Dewi Permatasari', '1011207', 'st_1011207@local', 'W', '2000-10-19 07:00:00', '74029679f757a6f27d78a40b62dfa083', '26320fbd0f890decf4581ffbadb9bad8', 'en', '08123456789', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011207', 'Dewi Permatasari', 'a2bc4d432c1a804f4654a4cafaa148b7', '06419a228600c8ff6a38', '1111119', '1011207', '06419a2286c4c12380a3', 
+									'Dewi Permatasari', 'W', 'SURABAYA', '2000-10-19 07:00:00', '08123456789', 'st_1011207@local', '74029679f757a6f27d78a40b62dfa083', 'd432c1', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011207', '06419a228600c8ff6a38', 'S', '06419a2286c4c12380a3', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011207' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011208', 'Jaka Umbara', '1011208', 'st_1011208@local', 'M', '2000-10-20 07:00:00', '31f8107da972096864158e8ef8f3eaed', '014fcbbd4a15ffb5d8c5abaa827df5da', 'en', '08123456790', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011208', 'Jaka Umbara', '9d21f8defee26773745a1f50f671031f', '06419a228600c8ff6a38', '1111120', '1011208', '06419a2286c856917b17', 
+									'Jaka Umbara', 'M', 'BEKASI', '2000-10-20 07:00:00', '08123456790', 'st_1011208@local', '31f8107da972096864158e8ef8f3eaed', '8defee', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011208', '06419a228600c8ff6a38', 'S', '06419a2286c856917b17', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011208' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011209', 'Nona Melati', '1011209', 'st_1011209@local', 'W', '2000-10-21 07:00:00', '8d4fe0401608131c22bea1089b7026a9', 'f789fe5b2648ce88aa5a641855a5e58a', 'en', '08123456791', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011209', 'Nona Melati', 'f09348f914b9cf156a368eb483146820', '06419a228600c8ff6a38', '1111121', '1011209', '06419a2286ce02256c49', 
+									'Nona Melati', 'W', 'JAKARTA', '2000-10-21 07:00:00', '08123456791', 'st_1011209@local', '8d4fe0401608131c22bea1089b7026a9', '8f914b', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011209', '06419a228600c8ff6a38', 'S', '06419a2286ce02256c49', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011209' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011210', 'Ardianto', '1011210', 'st_1011210@local', 'M', '2000-10-22 07:00:00', '89279c36f6464ab1ab9d37b02763b051', '711c1d3ad19d64051f8d2a8e738905c7', 'en', '08123456792', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011210', 'Ardianto', 'c74bc77aaef6676ac3ee928f72ef2292', '06419a228600c8ff6a38', '1111122', '1011210', '06419a2286d48a686419', 
+									'Ardianto', 'M', 'JAKARTA', '2000-10-22 07:00:00', '08123456792', 'st_1011210@local', '89279c36f6464ab1ab9d37b02763b051', '77aaef', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011210', '06419a228600c8ff6a38', 'S', '06419a2286d48a686419', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011210' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011211', 'Angga Permana', '1011211', 'st_1011211@local', 'M', '2000-10-23 07:00:00', '8751af705e7e1b12ff64cef45a852807', 'd4ca770131a68a4b97c8c828bb2a7415', 'en', '08123456793', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011211', 'Angga Permana', 'd1b2edd897d4b73cecf80e7b209ea957', '06419a228600c8ff6a38', '1111123', '1011211', '06419a2286d9e6e2a3ab', 
+									'Angga Permana', 'M', 'BANDUNG', '2000-10-23 07:00:00', '08123456793', 'st_1011211@local', '8751af705e7e1b12ff64cef45a852807', 'dd897d', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011211', '06419a228600c8ff6a38', 'S', '06419a2286d9e6e2a3ab', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011211' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011212', 'Ratnasari', '1011212', 'st_1011212@local', 'W', '2000-10-24 07:00:00', 'fa03035e5c4d79535c74089cb3d257b3', '9b9f135c40e8ca9d4816d356b736a937', 'en', '08123456794', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011212', 'Ratnasari', 'd992477a92e6df83600aff291911b50d', '06419a228600c8ff6a38', '1111124', '1011212', '06419a2286df44ce506f', 
+									'Ratnasari', 'W', 'BANDUNG', '2000-10-24 07:00:00', '08123456794', 'st_1011212@local', 'fa03035e5c4d79535c74089cb3d257b3', '77a92e', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011212', '06419a228600c8ff6a38', 'S', '06419a2286df44ce506f', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011212' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011213', 'Anissa Widiya', '1011213', 'st_1011213@local', 'W', '2000-10-25 07:00:00', '3189a7edf90492b05798a5864138dceb', 'ce3153c3f424e7601f2d5af4fb739844', 'en', '08123456795', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011213', 'Anissa Widiya', '7ebd3a05e5ff070bd76f1e28623a28ca', '06419a228600c8ff6a38', '1111125', '1011213', '06419a2286e54d3d7a1b', 
+									'Anissa Widiya', 'W', 'BANDUNG', '2000-10-25 07:00:00', '08123456795', 'st_1011213@local', '3189a7edf90492b05798a5864138dceb', 'a05e5f', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011213', '06419a228600c8ff6a38', 'S', '06419a2286e54d3d7a1b', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011213' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011214', 'Caca Melani', '1011214', 'st_1011214@local', 'W', '2001-10-26 07:00:00', '76fea6004e3b4c418246bdbba4f155b7', 'd00ac6f748bfc0142274b65b8c7bbc0a', 'en', '08123456796', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011214', 'Caca Melani', '3f7c30a5eed5933e92678a419f223bda', '06419a228600c8ff6a38', '1111126', '1011214', '06419a22865a7c82b6e1', 
+									'Caca Melani', 'W', 'SURABAYA', '2001-10-26 07:00:00', '08123456796', 'st_1011214@local', '76fea6004e3b4c418246bdbba4f155b7', '0a5eed', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011214', '06419a228600c8ff6a38', 'S', '06419a22865a7c82b6e1', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011214' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011215', 'Tiara Permatasari', '1011215', 'st_1011215@local', 'W', '2001-10-27 07:00:00', 'fffcd185c2a3c405a9ca14a4f4dc0dbc', '9053e42db4d10e437c4ea9a1190dc8f1', 'en', '08123456797', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011215', 'Tiara Permatasari', '2f374d0637966a79a0fc9c037372f8a0', '06419a228600c8ff6a38', '1111127', '1011215', '06419a22865a7c82b6e1', 
+									'Tiara Permatasari', 'W', 'BEKASI', '2001-10-27 07:00:00', '08123456797', 'st_1011215@local', 'fffcd185c2a3c405a9ca14a4f4dc0dbc', 'd06379', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011215', '06419a228600c8ff6a38', 'S', '06419a22865a7c82b6e1', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011215' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011216', 'Cesilya', '1011216', 'st_1011216@local', 'W', '2001-10-28 07:00:00', '650395c034b91e577a324f554c9e3964', '3a742fa5c10bf610b3949e3b26cfcb76', 'en', '08123456798', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011216', 'Cesilya', '8501855fe2b051dc98a2a31357d6d166', '06419a228600c8ff6a38', '1111128', '1011216', '06419a22865a7c82b6e1', 
+									'Cesilya', 'W', 'JAKARTA', '2001-10-28 07:00:00', '08123456798', 'st_1011216@local', '650395c034b91e577a324f554c9e3964', '55fe2b', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011216', '06419a228600c8ff6a38', 'S', '06419a22865a7c82b6e1', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011216' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011217', 'Paramitha', '1011217', 'st_1011217@local', 'W', '2001-10-29 07:00:00', '1acae4d1ca8e3e883c61ca6709eb7424', '4b8f53c02733f2ae803a4b3a40d9dbe0', 'en', '08123456799', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011217', 'Paramitha', '80e1c55aeddb84d5cac1e73c06d819f6', '06419a228600c8ff6a38', '1111129', '1011217', '06419a22865a7c82b6e1', 
+									'Paramitha', 'W', 'JAKARTA', '2001-10-29 07:00:00', '08123456799', 'st_1011217@local', '1acae4d1ca8e3e883c61ca6709eb7424', '55aedd', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011217', '06419a228600c8ff6a38', 'S', '06419a22865a7c82b6e1', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011217' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011218', 'Nina Kurniati', '1011218', 'st_1011218@local', 'W', '2001-10-30 07:00:00', '48e3f509905563493591aa65dd36eb1a', 'e5b2b58d94eb5a640d499fc12d395f33', 'en', '08123456800', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011218', 'Nina Kurniati', '6034ef349f85c576e08c543bc287cc79', '06419a228600c8ff6a38', '1111130', '1011218', '06419a22866676e40308', 
+									'Nina Kurniati', 'W', 'BANDUNG', '2001-10-30 07:00:00', '08123456800', 'st_1011218@local', '48e3f509905563493591aa65dd36eb1a', 'f349f8', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011218', '06419a228600c8ff6a38', 'S', '06419a22866676e40308', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011218' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011219', 'Zahra Amanda', '1011219', 'st_1011219@local', 'W', '2001-10-31 07:00:00', 'f0aae53f816bf09756f45b368ce13711', '116e0642a5deead4f309289521112c8f', 'en', '08123456801', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011219', 'Zahra Amanda', '2cf99277c4a1fe1e7d8328cf0422a386', '06419a228600c8ff6a38', '1111131', '1011219', '06419a22866676e40308', 
+									'Zahra Amanda', 'W', 'BANDUNG', '2001-10-31 07:00:00', '08123456801', 'st_1011219@local', 'f0aae53f816bf09756f45b368ce13711', '277c4a', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011219', '06419a228600c8ff6a38', 'S', '06419a22866676e40308', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011219' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011220', 'Maulinda', '1011220', 'st_1011220@local', 'W', '2001-11-01 07:00:00', '9beeb825f4ddc1d73c261c891a522ff1', 'eab7e6b8145befe605ee0028ed3b1522', 'en', '08123456802', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011220', 'Maulinda', '964a3a2995cef0ffc138862501c032d3', '06419a228600c8ff6a38', '1111132', '1011220', '06419a22866676e40308', 
+									'Maulinda', 'W', 'BANDUNG', '2001-11-01 07:00:00', '08123456802', 'st_1011220@local', '9beeb825f4ddc1d73c261c891a522ff1', 'a2995c', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011220', '06419a228600c8ff6a38', 'S', '06419a22866676e40308', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011220' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011221', 'Dadang Sunarto', '1011221', 'st_1011221@local', 'M', '2001-11-02 07:00:00', '3847c37a4b980c76fb3466e69a114ce0', '8b5bd3f16615491415299e51db77cf24', 'en', '08123456803', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011221', 'Dadang Sunarto', '00caf994f3aad85967112f25e09df898', '06419a228600c8ff6a38', '1111133', '1011221', '06419a22866676e40308', 
+									'Dadang Sunarto', 'M', 'SURABAYA', '2001-11-02 07:00:00', '08123456803', 'st_1011221@local', '3847c37a4b980c76fb3466e69a114ce0', '994f3a', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011221', '06419a228600c8ff6a38', 'S', '06419a22866676e40308', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011221' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011222', 'Didi Suyadi', '1011222', 'st_1011222@local', 'M', '2001-11-03 07:00:00', 'ed739b0fbff03a2b2db919187628e1b6', '7fb36d1ddd10d38ba30c1265cc1462dc', 'en', '08123456804', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011222', 'Didi Suyadi', '9c8ecacf5e3ffeedccc6557d71d58069', '06419a228600c8ff6a38', '1111134', '1011222', '06419a22866676e40308', 
+									'Didi Suyadi', 'M', 'BEKASI', '2001-11-03 07:00:00', '08123456804', 'st_1011222@local', 'ed739b0fbff03a2b2db919187628e1b6', 'acf5e3', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011222', '06419a228600c8ff6a38', 'S', '06419a22866676e40308', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011222' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011223', 'Linda', '1011223', 'st_1011223@local', 'W', '2001-11-04 07:00:00', '08a4c4eb1f6a9beb590fab9b7ee831de', '130cd1fdd76e919345f19e907adac039', 'en', '08123456805', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011223', 'Linda', '68e3fb4f04457f90d6e906321b154788', '06419a228600c8ff6a38', '1111135', '1011223', '06419a22866676e40308', 
+									'Linda', 'W', 'BEKASI', '2001-11-04 07:00:00', '08123456805', 'st_1011223@local', '08a4c4eb1f6a9beb590fab9b7ee831de', 'b4f044', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011223', '06419a228600c8ff6a38', 'S', '06419a22866676e40308', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011223' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011224', 'Sri Nurhayati', '1011224', 'st_1011224@local', 'W', '2001-11-05 07:00:00', '52156a6d54abb996b267e4b2cb1ec556', '457abd83a76c8a5f110252908e570b81', 'en', '08123456806', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011224', 'Sri Nurhayati', '71ea72222921a3e98a8333ae439321ae', '06419a228600c8ff6a38', '1111136', '1011224', '06419a228696ad0e8c84', 
+									'Sri Nurhayati', 'W', 'BEKASI', '2001-11-05 07:00:00', '08123456806', 'st_1011224@local', '52156a6d54abb996b267e4b2cb1ec556', '222292', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011224', '06419a228600c8ff6a38', 'S', '06419a228696ad0e8c84', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011224' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011225', 'Dini', '1011225', 'st_1011225@local', 'W', '2001-11-06 07:00:00', 'd8fe1fe9a63f883b704b674d824eb92a', 'fc117861f0458d0571bada8ab45e09b1', 'en', '08123456807', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011225', 'Dini', '34cf8656b8f09419ff8175b466bd1aaa', '06419a228600c8ff6a38', '1111137', '1011225', '06419a228696ad0e8c84', 
+									'Dini', 'W', 'BEKASI', '2001-11-06 07:00:00', '08123456807', 'st_1011225@local', 'd8fe1fe9a63f883b704b674d824eb92a', '656b8f', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011225', '06419a228600c8ff6a38', 'S', '06419a228696ad0e8c84', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011225' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011226', 'Dina', '1011226', 'st_1011226@local', 'W', '2001-11-07 07:00:00', '247a1229720334f574e74c2590a8fc72', '782996b258e67a0df4aadbbf6845576d', 'en', '08123456808', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011226', 'Dina', 'ba9a9ce9e3032a9b2a9b8b807d36209b', '06419a228600c8ff6a38', '1111138', '1011226', '06419a228696ad0e8c84', 
+									'Dina', 'W', 'BANDUNG', '2001-11-07 07:00:00', '08123456808', 'st_1011226@local', '247a1229720334f574e74c2590a8fc72', 'ce9e30', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011226', '06419a228600c8ff6a38', 'S', '06419a228696ad0e8c84', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011226' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011227', 'Winda', '1011227', 'st_1011227@local', 'W', '2001-11-08 07:00:00', 'ea0caf4ddac52bf7360e3c22bddad80d', 'd440f29ac232f0c91ee25b99b223a4cd', 'en', '08123456809', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011227', 'Winda', '163b7bc18c2eff7b98197baeb7986a54', '06419a228600c8ff6a38', '1111139', '1011227', '06419a2286a29e154f44', 
+									'Winda', 'W', 'JAKARTA', '2001-11-08 07:00:00', '08123456809', 'st_1011227@local', 'ea0caf4ddac52bf7360e3c22bddad80d', 'bc18c2', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011227', '06419a228600c8ff6a38', 'S', '06419a2286a29e154f44', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011227' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011228', 'Tamara', '1011228', 'st_1011228@local', 'W', '2001-11-09 07:00:00', '613fdca840879fb5350beef86a5a3bfe', '878924e8584977075f887adf4402e8bb', 'en', '08123456810', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011228', 'Tamara', '0df46087156dcb8eda43ed05a8009138', '06419a228600c8ff6a38', '1111140', '1011228', '06419a2286a29e154f44', 
+									'Tamara', 'W', 'JAKARTA', '2001-11-09 07:00:00', '08123456810', 'st_1011228@local', '613fdca840879fb5350beef86a5a3bfe', '087156', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011228', '06419a228600c8ff6a38', 'S', '06419a2286a29e154f44', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011228' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('1011229', 'Clarissa', '1011229', 'st_1011229@local', 'W', '2001-11-10 07:00:00', 'aeec6cbc02d72906713234ff186fee72', 'c1472661e1ec8a686f18fc53bd6883b8', 'en', '08123456811', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_student` 
+									(`student_id`, `username`, `token_student`, `school_id`, `reg_number`, `reg_number_national`, `class_id`, 
+									`name`, `gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, 
+									`address`, `time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `blocked`, `active`) VALUES
+									('1011229', 'Clarissa', '72bab4c488ff4d21a99d89011fe30389', '06419a228600c8ff6a38', '1111141', '1011229', '06419a2286a29e154f44', 
+									'Clarissa', 'W', 'JAKARTA', '2001-11-10 07:00:00', '08123456811', 'st_1011229@local', 'aeec6cbc02d72906713234ff186fee72', '4c488f', 
+									'', '2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 0, 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `class_id`, `time_create`, `active`) VALUES
+									('1011229', '06419a228600c8ff6a38', 'S', '06419a2286a29e154f44', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET `school_id` = '06419a228600c8ff6a38' WHERE `student_id` = '1011229' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` 
+							SET `edu_student`.`grade_id` = (SELECT `edu_class`.`grade_id` FROM `edu_class` 
+							WHERE `edu_class`.`class_id` = `edu_student`.`class_id`),
+							`prevent_change_school` = '1', `prevent_resign` = '1' 
+							WHERE `edu_student`.`school_id` = '06419a228600c8ff6a38';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_school` SET `prevent_change_school` = '1', `prevent_resign` = '1'
+							WHERE `school_id` = '06419a228600c8ff6a38';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101001', 'Umar Bakri', '29010101001', 'tc_29010101001@local', 'M', '1992-11-11 07:00:00', 'b6afcdddab44d4f1d4b2a2fcf61df2d8', 'ad132713bf608c2a6c3070d5be9f6c64', 'en', '0861131313', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101001', 'Umar Bakri', '4c7a269508eec18898b176e73cee284c', '06419a228600c8ff6a38', '10001001001', '29010101001', 'Umar Bakri', 
+									'M', 'JAKARTA', '1992-11-11 07:00:00', '0861131313', 'tc_29010101001@local', 'b6afcdddab44d4f1d4b2a2fcf61df2d8', '69508e', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101001', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101001' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101002', 'Mashudi', '29010101002', 'tc_29010101002@local', 'M', '1992-11-12 07:00:00', 'c9ae0905880c8ae61bdcb3e3d7225eac', '7edd86fbc12e4bed6786646fe81c998f', 'en', '0861131314', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101002', 'Mashudi', '1d1d104bccc5f84784644772ca88b025', '06419a228600c8ff6a38', '10001001002', '29010101002', 'Mashudi', 
+									'M', 'JAKARTA', '1992-11-12 07:00:00', '0861131314', 'tc_29010101002@local', 'c9ae0905880c8ae61bdcb3e3d7225eac', '04bccc', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101002', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101002' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101003', 'Bara Api', '29010101003', 'tc_29010101003@local', 'M', '1992-11-13 07:00:00', 'f457bebff084a368902a0f5ac9201e36', 'aff6b8ab71d5554cfc9c5ed2387e7c85', 'en', '0861131315', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101003', 'Bara Api', '5d9ee6fbdbe6479ce4d87507aefafa29', '06419a228600c8ff6a38', '10001001003', '29010101003', 'Bara Api', 
+									'M', 'JAKARTA', '1992-11-13 07:00:00', '0861131315', 'tc_29010101003@local', 'f457bebff084a368902a0f5ac9201e36', '6fbdbe', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101003', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101003' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101004', 'Widya', '29010101004', 'tc_29010101004@local', 'W', '1992-11-14 07:00:00', '9f7565cc2f2951f2b42f0cbb0218ca07', 'd58f5b33fb9aac1d954b45cb0d19a889', 'en', '0861131316', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101004', 'Widya', '543716d7b9c8cb6a27741b1df09352b2', '06419a228600c8ff6a38', '10001001004', '29010101004', 'Widya', 
+									'W', 'JAKARTA', '1992-11-14 07:00:00', '0861131316', 'tc_29010101004@local', '9f7565cc2f2951f2b42f0cbb0218ca07', '6d7b9c', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101004', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101004' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101005', 'Sudirman', '29010101005', 'tc_29010101005@local', 'M', '1992-11-15 07:00:00', '44419d0087b15fc578897d9f40932984', '752b7d4e919267ac2b52ff9b99109d0f', 'en', '0861131317', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101005', 'Sudirman', '7bebedb443fead5a81a135f86fda03ea', '06419a228600c8ff6a38', '10001001005', '29010101005', 'Sudirman', 
+									'M', 'JAKARTA', '1992-11-15 07:00:00', '0861131317', 'tc_29010101005@local', '44419d0087b15fc578897d9f40932984', 'db443f', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101005', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101005' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101006', 'Mayang', '29010101006', 'tc_29010101006@local', 'W', '1992-11-16 07:00:00', 'b0d9d00a0e78d341bdb32e7d097fbb32', '66920a32affda9256d56632f9ef0c794', 'en', '0861131318', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101006', 'Mayang', '89769ed5087f4c32364aecffcfb1f661', '06419a228600c8ff6a38', '10001001006', '29010101006', 'Mayang', 
+									'W', 'BANDUNG', '1992-11-16 07:00:00', '0861131318', 'tc_29010101006@local', 'b0d9d00a0e78d341bdb32e7d097fbb32', 'ed5087', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101006', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101006' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101007', 'Renda', '29010101007', 'tc_29010101007@local', 'W', '1992-11-17 07:00:00', 'eb81bcac67fc3f58a299fdd0074c9e5d', '9ced640194ceb6da1261aa85a14f7f1b', 'en', '0861131319', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101007', 'Renda', '0a315326b03a9a791206cc9ea70ef448', '06419a228600c8ff6a38', '10001001007', '29010101007', 'Renda', 
+									'W', 'BANDUNG', '1992-11-17 07:00:00', '0861131319', 'tc_29010101007@local', 'eb81bcac67fc3f58a299fdd0074c9e5d', '326b03', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101007', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101007' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101008', 'Raudah', '29010101008', 'tc_29010101008@local', 'W', '1992-11-18 07:00:00', '3aa943f8321d9d88f1afba1284a68daf', '51cbe204aa448d71a40f6148d1e1e1a9', 'en', '0861131320', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101008', 'Raudah', 'f2bf36785f83c029bd74b12a6c36b514', '06419a228600c8ff6a38', '10001001008', '29010101008', 'Raudah', 
+									'W', 'BANDUNG', '1992-11-18 07:00:00', '0861131320', 'tc_29010101008@local', '3aa943f8321d9d88f1afba1284a68daf', '6785f8', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101008', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101008' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101009', 'Mutiara', '29010101009', 'tc_29010101009@local', 'W', '1992-11-19 07:00:00', '90f83a741659479814d95443c47c9867', 'ae4c95346d5a65c52abd39f2cbaf3120', 'en', '0861131321', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101009', 'Mutiara', '64607bd9353fc79d0a154c48643f0892', '06419a228600c8ff6a38', '10001001009', '29010101009', 'Mutiara', 
+									'W', 'SURABAYA', '1992-11-19 07:00:00', '0861131321', 'tc_29010101009@local', '90f83a741659479814d95443c47c9867', 'bd9353', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101009', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101009' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101010', 'Buladi', '29010101010', 'tc_29010101010@local', 'M', '1992-11-20 07:00:00', '323c83a6034ce18a9f0f9bb27d687eef', '3945835dbedb38973ede1c2b77e68519', 'en', '0861131322', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101010', 'Buladi', 'c97c0501f0414fa20057a51633222975', '06419a228600c8ff6a38', '10001001010', '29010101010', 'Buladi', 
+									'M', 'BEKASI', '1992-11-20 07:00:00', '0861131322', 'tc_29010101010@local', '323c83a6034ce18a9f0f9bb27d687eef', '501f04', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101010', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101010' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101011', 'Sumijan', '29010101011', 'tc_29010101011@local', 'M', '1992-11-21 07:00:00', 'ac9e93e9c152b6030832b96a3d28ae9d', '7d8874eaa3953ecf408c1e0b12f7e93f', 'en', '0861131323', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101011', 'Sumijan', '4f8d4fd7633d2ae0da75c4bb278b9861', '06419a228600c8ff6a38', '10001001011', '29010101011', 'Sumijan', 
+									'M', 'JAKARTA', '1992-11-21 07:00:00', '0861131323', 'tc_29010101011@local', 'ac9e93e9c152b6030832b96a3d28ae9d', 'fd7633', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101011', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101011' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101012', 'Mardianto', '29010101012', 'tc_29010101012@local', 'M', '1992-11-22 07:00:00', 'ba801e903821c9018e4bd51b0131036c', 'f5cb8d7a431f28f9100f4b95f7ca2a87', 'en', '0861131324', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101012', 'Mardianto', '323c73aee956caa408595570517820c8', '06419a228600c8ff6a38', '10001001012', '29010101012', 'Mardianto', 
+									'M', 'JAKARTA', '1992-11-22 07:00:00', '0861131324', 'tc_29010101012@local', 'ba801e903821c9018e4bd51b0131036c', '3aee95', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101012', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101012' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101013', 'Junaidi', '29010101013', 'tc_29010101013@local', 'M', '1992-11-23 07:00:00', '01861f189ea50b80ca54bc53f5540720', '903b810f92efdabdfdc471f3f4610d03', 'en', '0861131325', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101013', 'Junaidi', 'da8885a9d7e5ef9c2f703096c1599d14', '06419a228600c8ff6a38', '10001001013', '29010101013', 'Junaidi', 
+									'M', 'BANDUNG', '1992-11-23 07:00:00', '0861131325', 'tc_29010101013@local', '01861f189ea50b80ca54bc53f5540720', '5a9d7e', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101013', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101013' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101014', 'Aisyah', '29010101014', 'tc_29010101014@local', 'W', '1992-11-24 07:00:00', '575e3df88d7888b1d6e9e652b069fb0f', '06746414209911787983d15a89ebf2c4', 'en', '0861131326', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101014', 'Aisyah', '99c212deb271e04dcdf14564bc0449cb', '06419a228600c8ff6a38', '10001001014', '29010101014', 'Aisyah', 
+									'W', 'BANDUNG', '1992-11-24 07:00:00', '0861131326', 'tc_29010101014@local', '575e3df88d7888b1d6e9e652b069fb0f', '2deb27', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101014', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101014' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101015', 'Mawardi', '29010101015', 'tc_29010101015@local', 'M', '1992-11-25 07:00:00', 'a59fa295a7daf601fc43dd69b6510798', '0a261a9d613981aefe7eceb1fd71d676', 'en', '0861131327', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101015', 'Mawardi', '643936cfdbcbc7929577378c57283cf0', '06419a228600c8ff6a38', '10001001015', '29010101015', 'Mawardi', 
+									'M', 'BANDUNG', '1992-11-25 07:00:00', '0861131327', 'tc_29010101015@local', 'a59fa295a7daf601fc43dd69b6510798', '6cfdbc', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101015', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101015' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101016', 'Muladi', '29010101016', 'tc_29010101016@local', 'M', '1992-11-26 07:00:00', 'ad3f9cc0918a5a5776a36d3f3560b905', '110870a810b19edaf96409f97045b9e2', 'en', '0861131328', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101016', 'Muladi', 'eea43e5a06b154b6a5d1643b19284241', '06419a228600c8ff6a38', '10001001016', '29010101016', 'Muladi', 
+									'M', 'SURABAYA', '1992-11-26 07:00:00', '0861131328', 'tc_29010101016@local', 'ad3f9cc0918a5a5776a36d3f3560b905', 'e5a06b', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101016', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101016' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101017', 'Srikandi', '29010101017', 'tc_29010101017@local', 'W', '1992-11-27 07:00:00', '5c9a43e07b7e6741c71061a678a39270', '9ecf5885942f21096e4980792364a3ea', 'en', '0861131329', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101017', 'Srikandi', '68af489116e5dcf54afd850dc763a50a', '06419a228600c8ff6a38', '10001001017', '29010101017', 'Srikandi', 
+									'W', 'BEKASI', '1992-11-27 07:00:00', '0861131329', 'tc_29010101017@local', '5c9a43e07b7e6741c71061a678a39270', '89116e', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101017', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101017' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101018', 'Bambang', '29010101018', 'tc_29010101018@local', 'M', '1992-11-28 07:00:00', '7ecf36ae905481e2b100b85aca8c03df', '97d9c0b9bf310c8828009e34a4fc7e9c', 'en', '0861131330', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101018', 'Bambang', 'af63d2f109e6f77f176d1e3b3f657a5b', '06419a228600c8ff6a38', '10001001018', '29010101018', 'Bambang', 
+									'M', 'JAKARTA', '1992-11-28 07:00:00', '0861131330', 'tc_29010101018@local', '7ecf36ae905481e2b100b85aca8c03df', '2f109e', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101018', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101018' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101019', 'Markisa', '29010101019', 'tc_29010101019@local', 'W', '1992-11-29 07:00:00', '941c57e9ba79b1d16d482571fbda8657', '06d08d016a490c66a63e7c3df7cec49c', 'en', '0861131331', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101019', 'Markisa', '9228023beb90adaa8fbcfce56b59de01', '06419a228600c8ff6a38', '10001001019', '29010101019', 'Markisa', 
+									'W', 'JAKARTA', '1992-11-29 07:00:00', '0861131331', 'tc_29010101019@local', '941c57e9ba79b1d16d482571fbda8657', '23beb9', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101019', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101019' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101020', 'Mawar', '29010101020', 'tc_29010101020@local', 'W', '1992-11-30 07:00:00', '9aa0d7f677c47f1cc312afcdb3da5ee7', '9e5d2e85f8f3fd77d262a81f87e3f437', 'en', '0861131332', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101020', 'Mawar', '5a91959b43ddf1b72b7f348f1005d6a6', '06419a228600c8ff6a38', '10001001020', '29010101020', 'Mawar', 
+									'W', 'BANDUNG', '1992-11-30 07:00:00', '0861131332', 'tc_29010101020@local', '9aa0d7f677c47f1cc312afcdb3da5ee7', '59b43d', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101020', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101020' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101021', 'Rukman', '29010101021', 'tc_29010101021@local', 'M', '1992-12-01 07:00:00', 'a1bc2b55e0ce77889c728a5584a02f4c', '37eaa2205f2ef8d7f18029961a93f499', 'en', '0861131333', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101021', 'Rukman', '5222f600d19573b056ee21ce10399b99', '06419a228600c8ff6a38', '10001001021', '29010101021', 'Rukman', 
+									'M', 'BANDUNG', '1992-12-01 07:00:00', '0861131333', 'tc_29010101021@local', 'a1bc2b55e0ce77889c728a5584a02f4c', '600d19', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101021', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101021' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101022', 'Dahlan', '29010101022', 'tc_29010101022@local', 'M', '1992-12-02 07:00:00', 'edc0d08c7c515e8baf8627c491e77d71', '584f64c863a4b5f79235fcc09b9a3a80', 'en', '0861131334', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101022', 'Dahlan', 'c0ed0b455c0d0b6b99d32f8fa9eeaea5', '06419a228600c8ff6a38', '10001001022', '29010101022', 'Dahlan', 
+									'M', 'BANDUNG', '1992-12-02 07:00:00', '0861131334', 'tc_29010101022@local', 'edc0d08c7c515e8baf8627c491e77d71', 'b455c0', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101022', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101022' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `member` 
+			(`member_id`, `name`, `username`, `email`, `gender`, `birth_day`, `password`, `auth`, `language`, `phone`, `country_id`, 
+			`time_register`, `last_activity_ip`, `last_activity_time`, `last_seen_ip`, `last_seen_time`, `active`) VALUES 
+			('29010101023', 'Subekti', '29010101023', 'tc_29010101023@local', 'M', '1992-12-03 07:00:00', '332d603fb54dcfaedf844175ed44718c', '0ec5bcd1a842a6d8b06a87cf92f1dfd0', 'en', '0861131335', '0', 
+			'2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '::1', '2023-03-21 19:25:12', '1');;
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_teacher` 
+									(`teacher_id`, `username`, `token_teacher`, `school_id`, `reg_number`, `reg_number_national`, `name`, 
+									`gender`, `birth_place`, `birth_day`, `phone`, `email`, `password`, `password_initial`, `address`, 
+									`time_create`, `time_edit`, `admin_create`, `admin_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+									('29010101023', 'Subekti', '9047ade1593ed00669e9d79305da474c', '06419a228600c8ff6a38', '10001001023', '29010101023', 'Subekti', 
+									'M', 'SURABAYA', '1992-12-03 07:00:00', '0861131335', 'tc_29010101023@local', '332d603fb54dcfaedf844175ed44718c', 'de1593', '', 
+									'2023-03-21 19:25:12', '2023-03-21 19:25:12', '064199f1b2fa18b983ec', '064199f1b2fa18b983ec', '::1', '::1', 1);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_member_school` 
+									(`member_id`, `school_id`, `role`, `time_create`, `active`) VALUES
+									('29010101023', '06419a228600c8ff6a38', 'T', '2023-03-21 19:25:12', true);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_teacher` 
+									SET `school_id` = '06419a228600c8ff6a38' 
+									WHERE `teacher_id` = '29010101023' 
+									AND (`school_id` = '' OR `school_id` is null);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_school` SET
+						`time_import_last` = '2023-03-21 19:25:12',
+						`admin_import_last` = '064199f1b2fa18b983ec',
+						`ip_import_last` = '::1'
+						WHERE `school_id` = '06419a228600c8ff6a38';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_test` 
+	(`test_id`, `school_id`, `name`, `class`, `school_program_id`, `subject`, `teacher_id`, `description`, `guidance`, `open`, `has_limits`, `trial_limits`, `threshold`, `assessment_methods`, `number_of_question`, `number_of_option`, `question_per_page`, `random`, `random_option`, `random_distribution`, `duration`, `has_alert`, `alert_time`, `alert_message`, `autosubmit`, `standard_score`, `penalty`, `sort_order`, `score_notification`, `publish_answer`, `time_answer_publication`, `test_availability`, `available_from`, `available_to`, `time_create`, `time_edit`, `member_create`, `role_create`, `member_edit`, `role_edit`, `ip_create`, `ip_edit`, `active`) VALUES
+	('06419a312ed35b626af7', '06419a228600c8ff6a38', 'Ujian Nasional Matematika (Bahasa) Paket 04', '', '', '', '', '', 'Pilihlah jawaban yang paling tepat!', '0', '1', '1', '75', 'H', '10', '5', '10', '1', '0', '0', '3600', '1', '300', 'Lihat waktu sisa Anda. Silakan periksa kembali jawaban Anda. Segera kirimkan jawaban sebelum waktunya habis.', '0', '1', '0', '0', '0', '0', null, 'F', null, null, '2023-03-21 19:29:06', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', 'A', '064199f1b2fa18b983ec', 'A', '::1', '::1', '0');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_subject` 
+			(`subject_id`, `name`, `sort_order`) VALUES
+			('d41d8cd98f00b204e9800998ecf8427e', '', 0);
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('06419a312eedf99fd50a', '<p>Perhatikan tabel di bawah ini!</p>
+<table style=\"width: 73px; height: 126px;\" border=\"1\"><tbody><tr><td style=\"text-align: center;\"><strong>P</strong></td>
+<td style=\"text-align: center;\"><strong>Q</strong></td>
+</tr><tr><td style=\"text-align: center;\">B</td>
+<td style=\"text-align: center;\">B</td>
+</tr><tr><td style=\"text-align: center;\">B</td>
+<td style=\"text-align: center;\">S</td>
+</tr><tr><td style=\"text-align: center;\">S</td>
+<td style=\"text-align: center;\">B</td>
+</tr><tr><td style=\"text-align: center;\">S</td>
+<td style=\"text-align: center;\">S</td>
+</tr></tbody></table><p>Nilai kebenaran pernyataan p &rArr; ~ q adalah ...</p>', '06419a228600c8ff6a38', '06419a312ed35b626af7', true, '1', '1', 'upper-alpha', 'b97f27d5c740ee291fa020c52cb72217', '',
+								'2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312ef28495f5d7', '06419a312eedf99fd50a', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>BBBB</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312ef62c85995a', '06419a312eedf99fd50a', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>BSBB</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312ef9da515dc9', '06419a312eedf99fd50a', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>BSSS</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312efd60449358', '06419a312eedf99fd50a', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>SBBB</p>', '1', '1', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f016cd3821e', '06419a312eedf99fd50a', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>SBSS</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('06419a312f05de90e72a', '<p>Ingkaran dari pernyaatan &ldquo;Jika Audrey rajin belajar, maka Audrey lulus ujian&rdquo; adalah ....</p>', '06419a228600c8ff6a38', '06419a312ed35b626af7', true, '2', '1', 'upper-alpha', '8f435bf2a5017ca48f929716ac30c193', '',
+								'2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f0afcdba3d5', '06419a312f05de90e72a', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>Jika Audrey tidak rajin belajar, maka Audrey tidak lulus ujian.</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f0f43ae671e', '06419a312f05de90e72a', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>Jika Audrey malas, maka Audrey tidak lulus ujian.</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f12bfb5c331', '06419a312f05de90e72a', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>Audrey tidak rajin belajar atau Audrey tidak lulus ujian.</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f1634df6a1f', '06419a312f05de90e72a', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>Audrey rajin belajar dan Audrey tidak lulus ujian.</p>', '1', '1', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f19975f76dd', '06419a312f05de90e72a', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>Audrey malas dan Audrey tidak lulus ujian</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('06419a312f1d59dabac4', '<p>Diketahui pernyataan<br>
+&ldquo;Jika harga bahan bakar naik, maka ongkos angkutan naik&rdquo;<br>
+&ldquo;Jika harga kebutuhan tidak naik, maka ongkos angkutan tidak naik&rdquo;<br>
+Bila kedua pernyataan itu bernilai benar, maka kesimpulan yang dapat diambil, adalah</p>', '06419a228600c8ff6a38', '06419a312ed35b626af7', true, '2', '1', 'upper-alpha', '28469c73b29dac8a1a560e984beb2f14', '',
+								'2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f20abc85460', '06419a312f1d59dabac4', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>Jika ongkos angkutan naik, maka harga bahan bakar naik</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f2492d49d9c', '06419a312f1d59dabac4', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>Jika harga kebutuhan naik maka harga bahan bakar  naik</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f28f88d428c', '06419a312f1d59dabac4', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>Jika ongkos angkutan tidaK naik, maka harga kebutuhan pokok tidak naik</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f2cee86a3b0', '06419a312f1d59dabac4', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>Jika harga bahan bakar naik, maka harga kebutuhan pokok naik</p>', '1', '1', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f31e507456c', '06419a312f1d59dabac4', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>Jika harga bahan bakar tidak naik, maka harga kebutuhan pokok tidak naik</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('06419a312f366147a8d5', '<p>Bentuk sederhana dari 2&radic;8 + &radic;18 + &frac14;&radic;32 + &radic;200</p>', '06419a228600c8ff6a38', '06419a312ed35b626af7', true, '2', '1', 'upper-alpha', 'dc2a8cc9a9c002309f94ae2d317c51e0', '',
+								'2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f3b1ff0cba2', '06419a312f366147a8d5', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>14&radic;2</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a312f3f40b27582', '06419a312f366147a8d5', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>17&radic;2</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a313001173cb21f', '06419a312f366147a8d5', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>18&radic;2</p>', '1', '1', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a3130070175cf95', '06419a312f366147a8d5', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>20&radic;2</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31300c1675a68b', '06419a312f366147a8d5', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>21&radic;2</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('06419a3130165286d196', '<p>Dengan merasionalkan penyebut dari&nbsp;<img class=\"latex-image\" style=\"vertical-align: middle;\" alt=\"\\frac{\\sqrt{3} - 2}{\\sqrt{3} + 2}\" data-latex=\"\\frac{\\sqrt{3} - 2}{\\sqrt{3} + 2}\" src=\"media.edu/school/06419a228600c8ff6a38/test/06419a312ed35b626af7/67795f_9cb1947c9128d7dbb271ea519b557f6a.png\">, bentuk sederhananya adalah...</p>', '06419a228600c8ff6a38', '06419a312ed35b626af7', true, '2', '1', 'upper-alpha', '26c14e22ca54bd827b705dae6197c5a2', '',
+								'2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31301b66045638', '06419a3130165286d196', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>-7 - 4&radic;3</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31302018ef11f1', '06419a3130165286d196', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>-7 + 4&radic;3</p>', '1', '1', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a313024687ba610', '06419a3130165286d196', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>-1 + 4/7&radic;3</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a3130298d196f96', '06419a3130165286d196', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>1 - 4/7&radic;3</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31302ecb655208', '06419a3130165286d196', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>1 + 4/7&radic;3</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('06419a3130369086edf3', '<p>Nilai dari&nbsp;<img class=\"latex-image\" style=\"vertical-align: middle;\" alt=\"\\frac{125^{\\frac{2}{3}} - (\\frac{1}{3})^{-2}}{2^{3}}\" data-latex=\"\\frac{125^{\\frac{2}{3}} - (\\frac{1}{3})^{-2}}{2^{3}}\" src=\"media.edu/school/06419a228600c8ff6a38/test/06419a312ed35b626af7/2fdd73_8e612f079a2cabe315f80e591ea862a8.png\"> adalah...</p>', '06419a228600c8ff6a38', '06419a312ed35b626af7', true, '2', '1', 'upper-alpha', 'e941306727818e68d70dc2f69dc014e7', '',
+								'2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31303b0aeab70b', '06419a3130369086edf3', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>1</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31303f8797ae86', '06419a3130369086edf3', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>2</p>', '1', '1', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a313044aeccccbb', '06419a3130369086edf3', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>4</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31304984ee1a82', '06419a3130369086edf3', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>8</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31304e917731a5', '06419a3130369086edf3', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>16</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('06419a3130536806cd00', '<p>Nilai x yang memenuhi 5<sup>x-1</sup> = 25&radic;5 adalah ...</p>', '06419a228600c8ff6a38', '06419a312ed35b626af7', true, '2', '1', 'upper-alpha', '6e3ed4f9fdcfdff5216b7b9e04c33da9', '',
+								'2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a313058645c6cb9', '06419a3130536806cd00', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>-3&frac12;</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31305d4baa7bbd', '06419a3130536806cd00', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>-&frac12;</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a3130621ce05c3e', '06419a3130536806cd00', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>&frac12;</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a3130668ab453d5', '06419a3130536806cd00', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>3&frac12;</p>', '1', '1', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31306b0ba7082f', '06419a3130536806cd00', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>4&frac12;</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('06419a31306f62d4b949', '<p>Jika <sup>3</sup>log5 = p, nilai <sup>9</sup>log15 = ...</p>', '06419a228600c8ff6a38', '06419a312ed35b626af7', true, '2', '1', 'upper-alpha', 'efc77e078cae1f91dc56dc4a7ad26089', '',
+								'2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a313073c9e00c4e', '06419a31306f62d4b949', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>2p + 1</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a3130784576bf60', '06419a31306f62d4b949', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>p + 1</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31307c1c9bd9b6', '06419a31306f62d4b949', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>&frac12;p + 1</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a3130803b6eef9f', '06419a31306f62d4b949', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>2 (p + 1)</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a313084ec16ba16', '06419a31306f62d4b949', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>&frac12; (p + 1)</p>', '1', '1', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('06419a31308a8d359b86', '<p>Diketahui log 2 = a dan log 3 = b, maka log 72 = ...</p>', '06419a228600c8ff6a38', '06419a312ed35b626af7', true, '2', '1', 'upper-alpha', '8855e425061e6ee580be2dc258b75f59', '',
+								'2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31308f40ec7903', '06419a31308a8d359b86', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>3a &ndash; 2b</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a313093c74acb4e', '06419a31308a8d359b86', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>2a &ndash; 3b</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a313098a6b53d1a', '06419a31308a8d359b86', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>3a + b</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a31309d317ca4f7', '06419a31308a8d359b86', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>2a + 3b</p>', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a3130a220b30f35', '06419a31308a8d359b86', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<p>3a + 2b</p>', '1', '1', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_question` 
+								(`question_id`, `content`, `school_id`, `test_id`, `multiple_choice`, `sort_order`, `random`, `numbering`, `digest`, `basic_competence`,
+								`time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+								('06419a3130a6d55f525e', '<p>Himpunan penyelesaian pertidaksamaan x<sup>2</sup> &ndash; 5x + 4&nbsp;&le; 0 dinyatakan dengan garis bilangan adalah ...</p>', '06419a228600c8ff6a38', '06419a312ed35b626af7', true, '2', '1', 'upper-alpha', 'b43796923eac361c4b24fafd7409dc66', '',
+								'2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a3130ae0550588a', '06419a3130a6d55f525e', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<img alt=\"\" src=\"media.edu/school/06419a228600c8ff6a38/test/06419a312ed35b626af7/abe240_b880c8e33a65e05d71e470b0b8e1abd8.png\">', '1', '1', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a3130b56381bcec', '06419a3130a6d55f525e', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<img alt=\"\" src=\"media.edu/school/06419a228600c8ff6a38/test/06419a312ed35b626af7/963d1f_0bff679def3cab86fb2879624eea8c9a.png\">', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a3130be829d981f', '06419a3130a6d55f525e', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<img alt=\"\" src=\"media.edu/school/06419a228600c8ff6a38/test/06419a312ed35b626af7/168c84_d8841d43e68018f35af1764dfb1ee8fe.png\">', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a3130c8c7ab158d', '06419a3130a6d55f525e', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<img alt=\"\" src=\"media.edu/school/06419a228600c8ff6a38/test/06419a312ed35b626af7/00d0ab_e231542b68fec6171fc485ec0cfb0705.png\">', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+INSERT INTO `edu_option` 
+										(`option_id`, `question_id`, `school_id`, `test_id`, `content`, `sort_order`, `score`, `time_create`, `member_create`, `time_edit`, `member_edit`) VALUES
+										('06419a3130d343bb5330', '06419a3130a6d55f525e', '06419a228600c8ff6a38', '06419a312ed35b626af7', '<img alt=\"\" src=\"media.edu/school/06419a228600c8ff6a38/test/06419a312ed35b626af7/cadb98_fe23640e5b9dcd43d0d77729f4c3a4eb.png\">', '1', '0', '2023-03-21 19:29:06', '064199f1b2fa18b983ec', '2023-03-21 19:29:06', '064199f1b2fa18b983ec');

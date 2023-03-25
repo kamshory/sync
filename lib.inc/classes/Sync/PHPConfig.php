@@ -64,4 +64,13 @@ class PHPConfig
         }
         file_put_contents($this->path, implode("\r\n", $lines));
     }
+
+    /**
+     * Get config as object
+     * @return \stdClass
+     */
+    public function getObject()
+    {
+        return json_decode(json_encode($this->data), false);
+    }
 }

@@ -1,0 +1,6 @@
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_class` SET 
+	`class_code` = 'X.IPS1', `grade_id` = '10', `school_program_id` = '0641a49e74ed8b521100', `name` = 'X.IPS1', 
+	`time_create` = '2023-03-25 13:01:15', `time_edit` = '2023-03-25 13:01:15', `admin_create` = '0641a49cbc1d47a145a3', `admin_edit` = '0641a49cbc1d47a145a3', 
+	`ip_create` = '127.0.0.1', `ip_edit` = '127.0.0.1', `sort_order` = '1030', `active` = '1'
+	WHERE `class_id` = '0641a49e74ebd994d05e' AND `school_id` = '0641a49e7409bc1e96b4';

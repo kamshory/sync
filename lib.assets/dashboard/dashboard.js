@@ -19,7 +19,7 @@
         label: 'File',
         backgroundColor: '#00a8db',
         data: dataFile,
-        yAxisID: 'y-axis-2'
+        yAxisID: 'y-axis-1'
       }
     ]
   };
@@ -40,9 +40,6 @@
         yAxes: [{
           id: "y-axis-1",
           position: "left"
-        }, {
-          id: "y-axis-2",
-          position: "right"
         }]
       },
     },

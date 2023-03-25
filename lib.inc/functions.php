@@ -17,6 +17,11 @@ $configs->db_pass = "alto1234";
 $configs->db_name = "mini_sync";
 $configs->db_time_zone = ini_get('date.timezone');
 
+$configsLoader = new \Sync\PHPConfig(dirname(dirname(dirname(__FILE__)))."/config.ini");
+$configsLoader->load();
+//$configsLoader->update(json_decode(json_encode($configs), true));
+
+$configs = $configsLoader->getObject();
 
 $database = new \Sync\PicoDatabase(
 	new \Sync\PicoDatabaseServer(

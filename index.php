@@ -1,6 +1,6 @@
 <?php
-require_once(dirname(__FILE__) . "/lib.inc/functions.php");
-require_once(dirname(__FILE__) . "/lib.inc/sync.php");
+require_once dirname(__FILE__) . "/lib.inc/functions.php";
+require_once dirname(__FILE__) . "/lib.inc/sync.php";
 //require_once(dirname(__FILE__) . "/lib.inc/sign-in.php");
 
 $pageTitle = "Halaman Depan";

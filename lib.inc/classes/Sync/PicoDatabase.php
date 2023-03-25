@@ -7,7 +7,7 @@ class PicoDatabase
 	private $username = "";
 	private $password = "";
 	private $databaseName = "";
-	private $timezone = "00:00";
+	private $timezone = "Asia/Jakarta";
 	private $conn;
 	private $databaseServer;
 

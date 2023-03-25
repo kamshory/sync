@@ -1,0 +1,2 @@
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_admin` SET `picture_rand` = '531503' WHERE `admin_id` = '064199f1b2fa18b983ec';

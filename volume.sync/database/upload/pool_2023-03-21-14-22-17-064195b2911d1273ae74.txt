@@ -1,0 +1,36 @@
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_class` SET 
+	`class_code` = 'X.IPS1', `grade_id` = '10', `school_program_id` = '063ce682814a79eca723', `name` = 'X.IPS1', `time_create` = '2023-03-21 14:18:32', `time_edit` = '2023-03-21 14:18:32', `admin_create` = 'aaaaaaaaaaaaa', `admin_edit` = 'aaaaaaaaaaaaa', `ip_create` = '127.0.0.1', `ip_edit` = '127.0.0.1', `sort_order` = '1030', `active` = '1'
+	WHERE `class_id` = '063ce682814a3ccf7b82';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET 
+	`reg_number` = '1111113', `reg_number_national` = '1011201', `grade_id` = '12', `class_id` = '063ce682819d463cf191', `name` = 'Agung Ramadhan', `gender` = 'M', `birth_place` = 'JAKARTA', `birth_day` = '2135-11-19', `phone` = '08123456783', `address` = '', `time_edit` = '2023-03-21 14:21:56', `admin_edit` = 'aaaaaaaaaaaaa', `ip_edit` = '127.0.0.1', `blocked` = '0', `active` = '1'
+	WHERE `student_id` = '063ce682823743dfd5b1';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET 
+		`email` = 'dhdfh@planetbiru.com'
+		WHERE `student_id` = '063ce682823743dfd5b1';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET 
+	`reg_number` = '1111113', `reg_number_national` = '1011201', `grade_id` = '12', `class_id` = '063ce682819d463cf191', `name` = 'Agung Ramadhan', `gender` = 'M', `birth_place` = 'JAKARTA', `birth_day` = '2135-11-19', `phone` = '08123456783', `address` = '', `time_edit` = '2023-03-21 14:22:02', `admin_edit` = 'aaaaaaaaaaaaa', `ip_edit` = '127.0.0.1', `blocked` = '1', `active` = '1'
+	WHERE `student_id` = '063ce682823743dfd5b1';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET 
+		`email` = 'dhdfh@planetbiru.com'
+		WHERE `student_id` = '063ce682823743dfd5b1';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET 
+	`reg_number` = '1111113', `reg_number_national` = '1011201', `grade_id` = '12', `class_id` = '063ce682819d463cf191', `name` = 'Agung Ramadhan', `gender` = 'M', `birth_place` = 'JAKARTA', `birth_day` = '2135-11-19', `phone` = '08123456783', `address` = '', `time_edit` = '2023-03-21 14:22:06', `admin_edit` = 'aaaaaaaaaaaaa', `ip_edit` = '127.0.0.1', `blocked` = '0', `active` = '1'
+	WHERE `student_id` = '063ce682823743dfd5b1';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET 
+		`email` = 'dhdfh@planetbiru.com'
+		WHERE `student_id` = '063ce682823743dfd5b1';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET 
+	`reg_number` = '1111113', `reg_number_national` = '1011201', `grade_id` = '12', `class_id` = '063ce682819d463cf191', `name` = 'Agung Ramadhan', `gender` = 'M', `birth_place` = 'JAKARTA', `birth_day` = '2135-11-19', `phone` = '08123456783', `address` = '', `time_edit` = '2023-03-21 14:22:11', `admin_edit` = 'aaaaaaaaaaaaa', `ip_edit` = '127.0.0.1', `blocked` = '1', `active` = '1'
+	WHERE `student_id` = '063ce682823743dfd5b1';
+------------------------912284ba5a823ba425efba890f57a4e2c88e8369
+UPDATE `edu_student` SET 
+		`email` = 'dhdfh@planetbiru.com'
+		WHERE `student_id` = '063ce682823743dfd5b1';
